@@ -1,0 +1,220 @@
+(footprint "450406020024"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WS-SLSV SMT Mini Slide Switch Same Side Connection, 9.0 x 3.5 mm")
+	(property "Reference" "REF**"
+		(at 0 -5.635 0)
+		(layer "F.SilkS")
+		(uuid "086530d5-b7bd-4624-b63f-ed08c9d3692a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "450406020024"
+		(at 0 5.365 0)
+		(layer "F.Fab")
+		(uuid "db272e5a-5b2e-4342-9574-992664840cb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "137600f1-7ac3-474f-a2fc-48649891eb49")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d92559d5-6c41-4511-ac17-f0a7de47a062")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0001acb0-aeb3-47c1-9001-91229ef1598a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.6 -1.85)
+		(end -4.6 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff748b04-78b6-440b-bc3d-97c868f23783")
+	)
+	(fp_line
+		(start -4.6 1.85)
+		(end -3.5 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d987c6c-6864-4e54-833b-78c375c69be0")
+	)
+	(fp_line
+		(start -1.5 1.85)
+		(end 1.5 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6900eff1-3897-4515-baa8-1e42049dd170")
+	)
+	(fp_line
+		(start -1 -1.85)
+		(end -4.6 -1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8b820d3-579e-4fca-971f-6861b397a249")
+	)
+	(fp_line
+		(start 1 -1.85)
+		(end 4.6 -1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9333c43c-d065-4842-9594-e4ad93eceb90")
+	)
+	(fp_line
+		(start 4.6 -1.85)
+		(end 4.6 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "940bb6e1-1169-4713-9f64-cac3b2351b68")
+	)
+	(fp_line
+		(start 4.6 1.85)
+		(end 3.5 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "699cab79-dfda-492b-93a2-8867dd8c2323")
+	)
+	(fp_circle
+		(center -4 3.8)
+		(end -3.8 3.8)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a408e3a3-76b3-4301-b537-41029990f5d0")
+	)
+	(fp_poly
+		(pts
+			(xy -4.8 -4.2) (xy 4.8 -4.2) (xy 4.8 4.2) (xy -4.8 4.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "c7ee4ab5-e399-4c16-adad-7185f83191c7")
+	)
+	(fp_line
+		(start -4.5 -1.75)
+		(end 4.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9c09e16-6afe-4feb-8a80-2d7d5825057e")
+	)
+	(fp_line
+		(start -4.5 1.75)
+		(end -4.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa2fed75-e60a-42b8-b943-db0342a8fd40")
+	)
+	(fp_line
+		(start 4.5 -1.75)
+		(end 4.5 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a87aef72-0027-4fa3-8076-346dccd392db")
+	)
+	(fp_line
+		(start 4.5 1.75)
+		(end -4.5 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce80a4c3-e10a-4cc5-b5cb-832fd4cb622c")
+	)
+	(pad "1" smd rect
+		(at -2.5 2.75)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b885ab26-2a6f-4c5d-b8c3-560cfe6e1119")
+	)
+	(pad "2" smd rect
+		(at 0 -2.75)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f41f2654-939b-4bbe-9d44-62e1d58aacbc")
+	)
+	(pad "3" smd rect
+		(at 2.5 2.75)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "82c5af5d-426c-4816-b847-a97aa0040336")
+	)
+)
