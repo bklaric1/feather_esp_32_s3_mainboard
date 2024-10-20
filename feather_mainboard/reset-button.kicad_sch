@@ -130,25 +130,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 0 5.842 0)
+			(property "Reference" "S5"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.778 1.5113)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 -5.08 0)
+			(property "Value" "430182050816"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.778 1.5113)
 					)
-					(justify bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "Eagle_WS-TASV (rev23a):430182050816"
+			(property "Footprint" "Custom footprints:430182050816"
 				(at 0 0 0)
 				(effects
 					(font
@@ -173,14 +172,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(symbol "430182050816_1_0"
@@ -371,25 +362,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 1.27 2.54 0)
+			(property "Reference" "C10"
+				(at -0.254 -4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "WCAP-CSGP_1210_H2.0"
-				(at 1.27 -5.08 0)
+			(property "Value" "100nF"
+				(at -1.778 -3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -781,7 +772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
+		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -916,7 +907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:430182050816"
+		(property "Footprint" "Custom footprints:430182050816"
 			(at 147.32 106.68 0)
 			(effects
 				(font

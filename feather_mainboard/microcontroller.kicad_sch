@@ -711,6 +711,145 @@
 				)
 			)
 		)
+		(symbol "WCAP-CSGP_1210_H2.0_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C1"
+				(at -0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0.1µF"
+				(at -1.778 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WCAP-CSGP_1210_H2.0_1_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.6426 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9279 0) (xy 2.5705 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 133.35 71.12)
@@ -1635,6 +1774,7 @@
 		)
 	)
 	(symbol
+		(lib_name "WCAP-CSGP_1210_H2.0_1")
 		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
 		(at 130.81 55.88 180)
 		(unit 1)
@@ -1644,7 +1784,7 @@
 		(dnp no)
 		(uuid "1ddea998-7475-4b91-9c3d-d06e8f165f2f")
 		(property "Reference" "C1"
-			(at 131.572 50.8 0)
+			(at 131.064 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
+		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
 			(at 130.81 55.88 0)
 			(effects
 				(font
@@ -1713,7 +1853,7 @@
 		(dnp no)
 		(uuid "b1f062dd-064c-4ecd-af61-546bb25ce154")
 		(property "Reference" "C2"
-			(at 116.078 50.8 0)
+			(at 115.57 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
+		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
 			(at 115.57 55.88 0)
 			(effects
 				(font

@@ -12,23 +12,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 19.05 17.145 0)
+			(property "Reference" "U3"
+				(at 14.224 2.54 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "2N7002K-T1-GE3"
-				(at 19.05 12.7 0)
+				(at 14.224 0.508 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "SOT_02K-T1-GE3_VIS"
+			(property "Footprint" "Custom footprints:SOT_02K-T1-GE3_VIS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,14 +58,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "2N7002K-T1-GE3"
@@ -564,8 +559,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "U2"
+				(at 20.32 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -573,14 +568,15 @@
 				)
 			)
 			(property "Value" "SI2307CDS-T1-BE3"
-				(at 20.32 7.62 0)
+				(at 20.066 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "SOT-23_VIS"
+			(property "Footprint" "Custom footprints:SOT-23_VIS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -607,14 +603,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "SI2307CDS-T1-BE3"
@@ -1606,7 +1594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:SOT-23_VIS"
+		(property "Footprint" "Custom footprints:SOT-23_VIS"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -1748,7 +1736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:SOT_02K-T1-GE3_VIS"
+		(property "Footprint" "Custom footprints:SOT_02K-T1-GE3_VIS"
 			(at 124.46 110.49 0)
 			(effects
 				(font

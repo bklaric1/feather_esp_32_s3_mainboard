@@ -12,25 +12,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 0 3.81 0)
+			(property "Reference" "S1"
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Value" "450406020024"
-				(at 0 -6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "450406020024:450406020024"
+			(property "Footprint" "Custom footprints:450406020024"
 				(at 0 0 0)
 				(effects
 					(font
@@ -323,7 +322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:450406020024"
+		(property "Footprint" "Custom footprints:450406020024"
 			(at 143.51 101.6 0)
 			(effects
 				(font

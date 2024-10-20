@@ -12,26 +12,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 -1.778 0)
+			(property "Reference" "J1"
+				(at -9.906 -2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "61300811121"
-				(at 0 0 0)
+				(at -10.922 -6.858 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "6130XX11121_61300811121:61300811121"
+			(property "Footprint" "Custom footprints:61300811121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -90,6 +90,16 @@
 				)
 			)
 			(property "IR" "3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "61300811121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -161,8 +171,8 @@
 			)
 			(symbol "6130XX11121_61300811121_0_0"
 				(rectangle
-					(start -8.89 -2.54)
-					(end 11.43 0)
+					(start -8.89 0)
+					(end 11.43 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -706,7 +716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:61300811121"
+		(property "Footprint" "Custom footprints:61300811121"
 			(at 153.67 90.17 0)
 			(effects
 				(font
