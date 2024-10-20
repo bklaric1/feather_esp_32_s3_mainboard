@@ -505,32 +505,92 @@
 		)
 	)
 	(junction
-		(at 148.59 99.06)
+		(at 189.23 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "139d8831-a21b-4493-a1e3-eac265ebc316")
+	)
+	(junction
+		(at 102.87 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6a3055-6580-47bb-9060-df1d1cfcaa53")
+	)
+	(junction
+		(at 176.53 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54a6fabb-8cde-486e-b7c0-2596208d6a66")
+	)
+	(junction
+		(at 152.4 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f8d4450-5a40-49d2-9eff-627a71e7c7ae")
 	)
 	(junction
-		(at 148.59 93.98)
+		(at 115.57 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe2dcc3-8339-4180-b59a-715cad57b32b")
+	)
+	(junction
+		(at 152.4 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9509d054-6c42-4c72-a985-e11351ce6ffe")
 	)
 	(junction
-		(at 135.89 99.06)
+		(at 115.57 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2b1477-b368-4c4f-9fa3-414a1b879ffa")
+	)
+	(junction
+		(at 189.23 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adc3f1c0-c92c-49a8-8024-ad5b05627046")
+	)
+	(junction
+		(at 152.4 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c511240c-7446-4099-b07d-62c5666ee9b5")
+	)
+	(junction
+		(at 139.7 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdfc9746-2f64-44d7-b056-cc40e39130f2")
 	)
 	(junction
-		(at 148.59 111.76)
+		(at 115.57 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df373260-1ce5-4335-93d0-31855f98000c")
+	)
+	(junction
+		(at 189.23 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30e6fb5-fb11-49af-9e2e-7a2d91ef25f1")
+	)
+	(junction
+		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1c56805-3d12-4317-b5c9-7b5b4b9f7f3d")
 	)
+	(junction
+		(at 152.4 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f873b64a-7c33-4df5-9178-aafbbf366948")
+	)
 	(wire
 		(pts
-			(xy 148.59 92.71) (xy 148.59 93.98)
+			(xy 152.4 90.17) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -540,17 +600,67 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 135.89 99.06)
+			(xy 115.57 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cd18672-454a-4a83-b285-e4b3d9be8624")
+		(uuid "12df814e-bac9-4e77-bef3-ea889cfbee07")
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 138.43 99.06)
+			(xy 102.87 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ee5b3f-a54d-412c-a3d4-5c5922ca592d")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b6091c-4312-4ae2-9789-9d5dd4747e81")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c34ea25-bac9-48ba-bb29-e1ee32bed2ce")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f064bd9-5597-419e-9346-46ea5ae32545")
+	)
+	(wire
+		(pts
+			(xy 102.87 96.52) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2271fd0e-f651-433c-9d9b-87e817e8a2d9")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +670,57 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 152.4 106.68)
+			(xy 189.23 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8cd426-eb74-4351-97ef-a3d1ddb4a9b5")
+	)
+	(wire
+		(pts
+			(xy 176.53 106.68) (xy 176.53 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30826322-8e26-412a-87cb-1fa1431df115")
+	)
+	(wire
+		(pts
+			(xy 102.87 96.52) (xy 105.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37998ac7-eef7-470d-b3d4-aea0c4fad3c7")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf42d66-e461-4a3d-8dda-7a760e1f59d9")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f753b97-e410-4f10-a86e-6a1a952c6c3c")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 156.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 162.56 93.98)
+			(xy 166.37 96.52) (xy 166.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +740,67 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 111.76) (xy 162.56 111.76)
+			(xy 189.23 72.39) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4655d6c8-8b00-4b1f-b995-a3af6cabc5da")
+	)
+	(wire
+		(pts
+			(xy 203.2 104.14) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4621e7-b314-4338-bc28-f8d06703a033")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f521492-0f83-4324-b375-4955842524e6")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510dc702-191e-4bad-a9af-ab99df4d6cfa")
+	)
+	(wire
+		(pts
+			(xy 189.23 119.38) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515e2143-90df-4461-a836-381c8c0b5c09")
+	)
+	(wire
+		(pts
+			(xy 176.53 88.9) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6357f55f-ae68-41a9-a297-a78ed3708ba5")
+	)
+	(wire
+		(pts
+			(xy 152.4 109.22) (xy 166.37 109.22)
 		)
 		(stroke
 			(width 0)
@@ -590,7 +810,67 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 111.76) (xy 148.59 111.76)
+			(xy 189.23 90.17) (xy 189.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640b94ae-b054-451d-be0a-dad3d505f036")
+	)
+	(wire
+		(pts
+			(xy 115.57 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640f1a2c-e5bf-4e37-af60-861b601942e7")
+	)
+	(wire
+		(pts
+			(xy 189.23 104.14) (xy 189.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679586b9-714a-4f5b-9128-9622aa1ac331")
+	)
+	(wire
+		(pts
+			(xy 176.53 96.52) (xy 179.07 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6833b17d-52c2-45c8-9c98-f358e0125c18")
+	)
+	(wire
+		(pts
+			(xy 113.03 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707734ad-40c6-4d15-9a7e-3c7dda76daf5")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7099bb09-bb9d-4af0-9d70-6ef3cafd10c4")
+	)
+	(wire
+		(pts
+			(xy 139.7 109.22) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +880,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 135.89 101.6)
+			(xy 115.57 109.22) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fab461-1cb9-4baf-b976-49918c172aae")
+	)
+	(wire
+		(pts
+			(xy 139.7 96.52) (xy 139.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 148.59 99.06)
+			(xy 152.4 91.44) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -620,7 +910,37 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 148.59 111.76)
+			(xy 189.23 109.22) (xy 189.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e8ad09-3b33-4d19-b855-03da0efdd604")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8891f0df-ced9-4a07-bcd5-f43b9ba94072")
+	)
+	(wire
+		(pts
+			(xy 102.87 106.68) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893d4d71-4c99-4aaf-a1f6-d1fa46352527")
+	)
+	(wire
+		(pts
+			(xy 152.4 104.14) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -630,7 +950,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 152.4 99.06)
+			(xy 189.23 91.44) (xy 189.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae2e820-4e34-4023-9e8c-f1c9c70be029")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 156.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -640,7 +970,37 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 162.56 93.98)
+			(xy 102.87 88.9) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f81f179-124f-44ff-8c48-104f36c20e5d")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c17320-3baa-4470-8019-84cf2cf4cca0")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bfe4f7-52ec-45f0-a124-207bde9e071b")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 166.37 91.44)
 		)
 		(stroke
 			(width 0)
@@ -650,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 113.03) (xy 148.59 111.76)
+			(xy 152.4 128.27) (xy 152.4 119.38)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +1020,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 148.59 99.06)
+			(xy 186.69 96.52) (xy 189.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6a1248-f558-4af1-9c66-0f0dc65b0416")
+	)
+	(wire
+		(pts
+			(xy 176.53 96.52) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fae7fa-966b-4988-9a81-eb6ab0ab7f30")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +1050,27 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 162.56 111.76)
+			(xy 115.57 72.39) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d7c4ba-4e23-4aeb-b82a-c3d9b54e84f4")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4979d6-565d-45ae-8ea6-5b484dabee6b")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 166.37 109.22)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 109.22) (xy 135.89 111.76)
+			(xy 139.7 106.68) (xy 139.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +1090,67 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 148.59 85.09)
+			(xy 176.53 109.22) (xy 189.23 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e4d896-bedd-47ed-9121-eb24c7aa414f")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 129.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ba3947-f443-4aa0-aaeb-531e68add330")
+	)
+	(wire
+		(pts
+			(xy 115.57 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd72c88-8400-4ecc-861a-599c1b9b5044")
+	)
+	(wire
+		(pts
+			(xy 189.23 72.39) (xy 152.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd71ec4d-6c44-4ea0-8ef4-23672bdbd770")
+	)
+	(wire
+		(pts
+			(xy 189.23 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7fb85d-d3e2-41d9-a9b3-cd0be65da282")
+	)
+	(wire
+		(pts
+			(xy 189.23 96.52) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1f12b8-8b8c-4275-80b8-a9f36d9b7c3b")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 72.39)
 		)
 		(stroke
 			(width 0)
@@ -699,8 +1159,8 @@
 		(uuid "fe53a93d-8a3d-4ba3-b8c9-8f33da6d69d3")
 	)
 	(global_label "GND"
-		(shape input)
-		(at 148.59 113.03 270)
+		(shape bidirectional)
+		(at 152.4 128.27 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -708,9 +1168,9 @@
 			)
 			(justify right)
 		)
-		(uuid "cb871ae6-b1f8-4882-b924-5d810d3e9821")
+		(uuid "37a19cde-6b7c-4220-9225-f93466afb924")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 119.8857 90)
+			(at 152.4 136.237 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,8 +1181,8 @@
 		)
 	)
 	(global_label "VCC"
-		(shape input)
-		(at 148.59 83.82 90)
+		(shape bidirectional)
+		(at 152.4 63.5 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -730,9 +1190,9 @@
 			)
 			(justify left)
 		)
-		(uuid "db1b0ece-543e-4c57-87ea-fc4040fb6a41")
+		(uuid "eb6a9d49-3e75-4d62-889e-d132bd15f9b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 77.2062 90)
+			(at 152.4 55.7749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,29 +1202,127 @@
 			)
 		)
 	)
-	(hierarchical_label "Knopf"
+	(hierarchical_label "Button_1"
 		(shape bidirectional)
-		(at 125.73 99.06 180)
+		(at 176.53 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "d157964e-577e-4248-b875-369acbcd7f7c")
+	)
+	(hierarchical_label "Button_2"
+		(shape bidirectional)
+		(at 139.7 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "d6121b81-7ac3-41f4-927f-12eaddcd1823")
 	)
+	(hierarchical_label "Button_3"
+		(shape bidirectional)
+		(at 102.87 88.9 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e32d35f8-bfe9-451b-b1af-bf48883d1103")
+	)
 	(symbol
-		(lib_id "Device:R")
-		(at 142.24 99.06 90)
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 198.12 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae28e32e-d0f6-4cfd-85d7-eaaede5836de")
-		(property "Reference" "R4"
-			(at 142.24 101.346 90)
+		(uuid "04a10002-4e35-4da8-87ca-d5048266cdd5")
+		(property "Reference" "S2"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:430182050816"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5ec2cb2e-bbe9-4be2-9b42-ac186d987647")
+		)
+		(pin "4"
+			(uuid "5170a7c9-0636-4086-ab06-d0b9c036f0fa")
+		)
+		(pin "2"
+			(uuid "46a73d4d-0120-4e75-a6e4-38dc68d3bc7d")
+		)
+		(pin "1"
+			(uuid "af3f2ff9-551a-4a73-a169-8285cd61138c")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1106834d-abc7-40d6-9f24-5fce82e23bcc")
+		(property "Reference" "R8"
+			(at 109.22 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +1330,7 @@
 			)
 		)
 		(property "Value" "75kΩ"
-			(at 142.24 103.124 90)
+			(at 109.22 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +1338,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 142.24 100.838 90)
+			(at 109.22 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +1347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 99.06 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +1356,418 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 99.06 0)
+			(at 109.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46258341-9717-408c-ae8c-31ef08d6dadd")
+		)
+		(pin "1"
+			(uuid "88aa85b3-4894-4dcf-81c3-b88a78cc5410")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2050e9c5-f61e-441a-8109-e1f9cef302dd")
+		(property "Reference" "R5"
+			(at 185.674 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 187.198 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 187.452 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56d34a01-e130-40e5-ad66-9782ee531a92")
+		)
+		(pin "1"
+			(uuid "1ba18e1a-2e43-448c-affb-198e16946bc5")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 124.46 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a1cb546-af39-480c-87d6-b3091b75173c")
+		(property "Reference" "S4"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 124.46 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:430182050816"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b593efd0-683d-4ece-98a2-a952971422ea")
+		)
+		(pin "4"
+			(uuid "a9cf1826-a1a4-4b69-83b7-26fbadc04e87")
+		)
+		(pin "2"
+			(uuid "3e8f5874-2942-4ebe-a0c7-894aac8f8c61")
+		)
+		(pin "1"
+			(uuid "a1b7fc80-c71f-4010-a8a7-84b134fdfecf")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5249b103-eb8d-4f45-99a4-87703f962027")
+		(property "Reference" "R4"
+			(at 182.88 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75kΩ"
+			(at 182.88 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 182.88 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2be8b2b3-27b6-42de-9727-628e5273b3ec")
+		)
+		(pin "1"
+			(uuid "0029a5df-8ad6-4ca4-bf02-d4da18b6435a")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
+		(at 102.87 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "736b97e1-e59c-4444-9600-ae27e43881a3")
+		(property "Reference" "C9"
+			(at 98.044 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 99.822 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8035e995-1afe-4313-bf2d-3e47d25ddc58")
+		)
+		(pin "2"
+			(uuid "dd9a7bbe-a86e-4896-945f-2b0b771213f4")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 115.57 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a7373fe-cbe9-4057-8028-504121e4109c")
+		(property "Reference" "R9"
+			(at 112.014 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 113.538 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 113.792 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12c12ce1-7854-425e-a939-3826ecc36b24")
+		)
+		(pin "1"
+			(uuid "ec2193ff-905d-4db5-af6a-ed198accc88d")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae28e32e-d0f6-4cfd-85d7-eaaede5836de")
+		(property "Reference" "R6"
+			(at 146.05 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "75kΩ"
+			(at 146.05 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 146.05 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +1784,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -823,15 +1792,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 88.9 0)
+		(at 152.4 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b7f116c6-a26e-4622-9da0-448cebfd3085")
-		(property "Reference" "R5"
-			(at 145.034 88.9 90)
+		(property "Reference" "R7"
+			(at 148.844 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +1808,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 146.558 88.9 90)
+			(at 150.368 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,7 +1816,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 146.812 88.9 90)
+			(at 150.622 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +1825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 88.9 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -865,7 +1834,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 88.9 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,40 +1851,41 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Projektarbeit_button:430182050816")
-		(at 157.48 104.14 0)
+		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
+		(at 176.53 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddeb5ca4-162c-4364-9df3-7c9c2bbcbdc7")
-		(property "Reference" "S2"
-			(at 157.48 97.79 0)
+		(uuid "c7cbbecd-66c5-482b-8dc8-06e6cb97deb8")
+		(property "Reference" "C7"
+			(at 171.704 101.346 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "430182050816"
-			(at 157.48 97.79 0)
+		(property "Value" "100nF"
+			(at 173.482 99.822 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:430182050816"
-			(at 157.48 104.14 0)
+		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
+			(at 176.53 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +1894,75 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 104.14 0)
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b088285-c9d8-42e8-b536-c287e8365b97")
+		)
+		(pin "2"
+			(uuid "de144f6c-b565-4ea3-bc1c-b9c096bde6e4")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 161.29 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddeb5ca4-162c-4364-9df3-7c9c2bbcbdc7")
+		(property "Reference" "S3"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 161.29 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "footprints:430182050816"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +1971,7 @@
 			)
 		)
 		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
-			(at 157.48 104.14 0)
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +1994,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
-					(reference "S2")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -964,15 +2002,15 @@
 	)
 	(symbol
 		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
-		(at 135.89 104.14 270)
+		(at 139.7 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4335006-42d9-4c5c-a1d6-e29e3acf7b2d")
-		(property "Reference" "C5"
-			(at 131.064 103.886 0)
+		(property "Reference" "C8"
+			(at 134.874 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +2019,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 132.842 102.362 0)
+			(at 136.652 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" "footprints:WCAP-CSGP_1210_H2.0"
-			(at 135.89 104.14 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +2037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 104.14 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +2046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 104.14 0)
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +2063,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)

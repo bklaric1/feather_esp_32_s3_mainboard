@@ -652,6 +652,10 @@
     [
       "6bb461df-e058-49ab-990d-543fb2df67dd",
       "MicroSD-Card Adapter"
+    ],
+    [
+      "0d3ffa4d-b734-4a21-ae0e-364ca9762bbd",
+      "Reset-Button"
     ]
   ],
   "text_variables": {}

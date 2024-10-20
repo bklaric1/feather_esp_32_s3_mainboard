@@ -845,28 +845,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5954527-debb-42f3-9a16-0e4b2113fe59")
+			(uuid "be7692a0-65a1-4c69-8494-4220c6f8b3b0")
 		)
 		(pin "5"
-			(uuid "877d045e-7ce0-491d-8d0d-f6da20bf74f6")
+			(uuid "4a258858-feed-41dc-a808-b40a14bb3f00")
 		)
 		(pin "7"
-			(uuid "5440a12e-0015-426e-a9f1-79abce82b1eb")
+			(uuid "972f3b68-3cfe-41b8-9004-72bb27c5465a")
 		)
 		(pin "3"
-			(uuid "6ef69c87-632c-4af1-9638-da929a5fe7e2")
+			(uuid "ca6ea5bd-0a5b-4157-a153-d9440ed8af6d")
 		)
 		(pin "6"
-			(uuid "e99b4e98-d18b-4a9f-a68a-3aa143435e4a")
+			(uuid "098dd930-3b5d-4de4-b836-3c7d38252bf7")
 		)
 		(pin "1"
-			(uuid "9b927a8f-93f0-4632-9f6e-21839094d4ec")
+			(uuid "109a0966-a7a4-4285-89fc-324a6ddf9bf6")
 		)
 		(pin "8"
-			(uuid "06679e6e-6df4-4731-a2fc-c22070ccf40b")
+			(uuid "3ac4a267-91d3-419d-b206-19997eea22a4")
 		)
 		(pin "4"
-			(uuid "4adfa2ba-76e4-426c-9a7f-a4f1bf416029")
+			(uuid "01e2ef52-5745-4a7e-9de9-fce1790c311a")
 		)
 		(instances
 			(project "feather_mainboard"

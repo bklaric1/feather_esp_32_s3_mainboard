@@ -1248,7 +1248,7 @@
 		)
 		(uuid "0cd04e76-12e4-4feb-ba89-04b85bceeb5f")
 	)
-	(hierarchical_label "SPI_2_MISO"
+	(hierarchical_label "SD_MISO{slash}CMD"
 		(shape bidirectional)
 		(at 222.25 93.98 0)
 		(fields_autoplaced yes)
@@ -1260,7 +1260,7 @@
 		)
 		(uuid "1a2acffe-7740-4185-a66f-7e24c99a017b")
 	)
-	(hierarchical_label "SPI_2_CS"
+	(hierarchical_label "SD_CS{slash}DAT3"
 		(shape bidirectional)
 		(at 222.25 105.41 0)
 		(fields_autoplaced yes)
@@ -1296,7 +1296,7 @@
 		)
 		(uuid "47434107-b9de-46ed-9c75-24a3185bc868")
 	)
-	(hierarchical_label "SPI_1_MISO"
+	(hierarchical_label "DISPLAY_CS"
 		(shape bidirectional)
 		(at 95.25 113.03 180)
 		(fields_autoplaced yes)
@@ -1320,7 +1320,7 @@
 		)
 		(uuid "60c01511-0f82-4104-9546-8a3c1ff26d1c")
 	)
-	(hierarchical_label "SPI_2_MOSI"
+	(hierarchical_label "SD_MOSI{slash}DAT0"
 		(shape bidirectional)
 		(at 222.25 101.6 0)
 		(fields_autoplaced yes)
@@ -1344,7 +1344,7 @@
 		)
 		(uuid "65a40e03-c5d5-4782-a92b-e4cce0916207")
 	)
-	(hierarchical_label "SPI_2_SCK"
+	(hierarchical_label "SD_CLK"
 		(shape bidirectional)
 		(at 222.25 97.79 0)
 		(fields_autoplaced yes)
@@ -1380,7 +1380,7 @@
 		)
 		(uuid "7ac781a1-130f-4af3-ae97-7bcb8a56940b")
 	)
-	(hierarchical_label "Button3"
+	(hierarchical_label "Button_2"
 		(shape bidirectional)
 		(at 95.25 116.84 180)
 		(fields_autoplaced yes)
@@ -1404,7 +1404,7 @@
 		)
 		(uuid "95e87dc0-5535-4748-9e33-ab733165af71")
 	)
-	(hierarchical_label "Button_2"
+	(hierarchical_label "Button_1"
 		(shape bidirectional)
 		(at 95.25 90.17 180)
 		(fields_autoplaced yes)
@@ -1416,7 +1416,7 @@
 		)
 		(uuid "aa98fde8-0816-4e6d-91f3-04eba4d1138f")
 	)
-	(hierarchical_label "Button4"
+	(hierarchical_label "Button_3"
 		(shape bidirectional)
 		(at 95.25 120.65 180)
 		(fields_autoplaced yes)
@@ -1428,7 +1428,7 @@
 		)
 		(uuid "b0953dbf-f298-4301-a320-d77375e802c4")
 	)
-	(hierarchical_label "Button_1"
+	(hierarchical_label "Free"
 		(shape bidirectional)
 		(at 95.25 86.36 180)
 		(fields_autoplaced yes)
@@ -1452,7 +1452,7 @@
 		)
 		(uuid "bee3487d-872c-4687-8e5c-95e565a61567")
 	)
-	(hierarchical_label "SPI_1_MOSI"
+	(hierarchical_label "DISPLAY_MOSI"
 		(shape bidirectional)
 		(at 95.25 109.22 180)
 		(fields_autoplaced yes)
@@ -1464,7 +1464,7 @@
 		)
 		(uuid "c6d98072-c027-477b-a13a-0d347d2e0143")
 	)
-	(hierarchical_label "SPI_1_SCK"
+	(hierarchical_label "DISPLAY_SCLK"
 		(shape bidirectional)
 		(at 95.25 105.41 180)
 		(fields_autoplaced yes)
@@ -1643,7 +1643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ddea998-7475-4b91-9c3d-d06e8f165f2f")
-		(property "Reference" "C20"
+		(property "Reference" "C1"
 			(at 131.572 50.8 0)
 			(effects
 				(font
@@ -1697,7 +1697,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
-					(reference "C20")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1712,7 +1712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1f062dd-064c-4ecd-af61-546bb25ce154")
-		(property "Reference" "C21"
+		(property "Reference" "C2"
 			(at 116.078 50.8 0)
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
-					(reference "C21")
+					(reference "C2")
 					(unit 1)
 				)
 			)

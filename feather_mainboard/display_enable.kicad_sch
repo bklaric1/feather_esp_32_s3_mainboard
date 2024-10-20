@@ -1305,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 87.63) (xy 137.16 90.17)
+			(xy 137.16 86.36) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 123.19) (xy 123.19 124.46)
+			(xy 123.19 123.19) (xy 123.19 127)
 		)
 		(stroke
 			(width 0)
@@ -1425,7 +1425,7 @@
 	)
 	(global_label "VCC"
 		(shape bidirectional)
-		(at 137.16 87.63 90)
+		(at 137.16 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1435,7 +1435,7 @@
 		)
 		(uuid "5e3ce539-b3d1-4197-a143-ce73de8adb36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 79.9049 90)
+			(at 137.16 78.6349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1469,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 123.19 124.46 270)
+		(at 123.19 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1479,7 +1479,7 @@
 		)
 		(uuid "f55fd518-f004-44af-8c1d-afb47e20556a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 132.427 90)
+			(at 123.19 134.967 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "360bc871-08d8-4e55-b11c-6a8cc273bf75")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 162.56 92.71 0)
 			(effects
 				(font
@@ -1647,7 +1647,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/e2a4e638-a577-4462-b00f-f16be15249be"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1662,7 +1662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6be6ffa5-21b7-4c17-86a7-49c8de92c353")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 105.664 116.84 90)
 			(effects
 				(font
@@ -1714,7 +1714,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/e2a4e638-a577-4462-b00f-f16be15249be"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1729,7 +1729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "778b70fd-8e71-4f64-90fd-ba27d538ec2f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 138.684 107.95 0)
 			(effects
 				(font
@@ -1789,7 +1789,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/e2a4e638-a577-4462-b00f-f16be15249be"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1804,7 +1804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "868f4c3f-f744-4257-8710-8a7d876a079d")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 139.7 93.98 90)
 			(effects
 				(font
@@ -1856,7 +1856,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/e2a4e638-a577-4462-b00f-f16be15249be"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
