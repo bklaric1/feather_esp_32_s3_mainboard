@@ -689,6 +689,18 @@
 		)
 		(uuid "ffbdb4fe-7bb4-46c0-aeb7-c7e644246339")
 	)
+	(text "?"
+		(exclude_from_sim no)
+		(at 167.64 104.14 0)
+		(effects
+			(font
+				(size 25 25)
+				(thickness 5)
+				(bold yes)
+			)
+		)
+		(uuid "5bd50512-196a-468f-8b9e-3c8d3af3b0bd")
+	)
 	(global_label "VCC"
 		(shape bidirectional)
 		(at 138.43 82.55 90)

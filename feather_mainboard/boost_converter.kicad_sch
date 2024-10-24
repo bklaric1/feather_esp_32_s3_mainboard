@@ -1120,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 147.32 111.76)
+			(xy 147.32 110.49) (xy 147.32 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1252,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 147.32 111.76 270)
+		(at 147.32 118.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1262,7 +1262,7 @@
 		)
 		(uuid "975e7b6b-5d60-444b-a13a-561355705a9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 119.727 90)
+			(at 147.32 126.077 90)
 			(effects
 				(font
 					(size 1.27 1.27)

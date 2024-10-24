@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -115,21 +109,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
-        "min_connection": 0.125,
-        "min_copper_edge_clearance": 0.3,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.3,
-        "min_microvia_diameter": 0.0,
-        "min_microvia_drill": 0.0,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.125,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.45,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -176,23 +170,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.125,
-        0.15,
-        0.175,
-        0.2,
-        0.25,
-        0.3,
-        0.35,
-        0.4,
-        0.45,
-        0.5,
-        0.55,
-        0.6,
-        0.8,
-        1.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -219,44 +197,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.45,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.55,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.65,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
-        },
-        {
-          "diameter": 0.75,
-          "drill": 0.45
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.45
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -474,7 +415,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "ignore",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -489,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "feather_mainboard.kicad_pro",
+    "filename": "feather_daughterboard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -526,7 +467,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../Downloads/feather_daughterboard.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -633,48 +574,16 @@
   },
   "sheets": [
     [
-      "e1e12730-ab4f-45db-8b66-c1e0f78e2f00",
+      "f87bd391-02e1-482b-840f-25c34f805c61",
       "Root"
     ],
     [
-      "a867e0b4-aaaa-4d5d-aab5-187e8be84092",
-      "Display-Ports"
+      "1643200e-4944-407e-95a0-66f0524df32d",
+      "Buttons"
     ],
     [
-      "e2a4e638-a577-4462-b00f-f16be15249be",
-      "Display-Enable"
-    ],
-    [
-      "149cfc71-2d8e-4850-afcf-2d86d8c8a060",
-      "Switch"
-    ],
-    [
-      "bcd38403-f30d-4d25-9221-d4e2b9310dad",
-      "Boost-Converter"
-    ],
-    [
-      "0612ee74-9d90-4326-b91d-9e799538803a",
-      "Battery-Connector"
-    ],
-    [
-      "2182aea7-eb34-437a-b655-8b840f0aafa8",
-      "Buttons-Connector"
-    ],
-    [
-      "2e3e5636-c492-45ef-bece-a2815296f467",
-      "Microcontroller"
-    ],
-    [
-      "6bb461df-e058-49ab-990d-543fb2df67dd",
-      "MicroSD-Card Adapter"
-    ],
-    [
-      "0d3ffa4d-b734-4a21-ae0e-364ca9762bbd",
-      "Reset-Button"
-    ],
-    [
-      "9211cf2c-296b-49a8-984c-d8eee48b72b3",
-      "IIC"
+      "2bd35ebf-9a80-4c43-95ba-dd995c27caae",
+      "Connector"
     ]
   ],
   "text_variables": {}

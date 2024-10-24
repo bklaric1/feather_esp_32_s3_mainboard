@@ -88,7 +88,7 @@
 				(color "White")
 				(material "Peters SD2692")
 			)
-			(copper_finish "HAL lead-free")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -132,4 +132,44 @@
 		)
 	)
 	(net 0 "")
+	(gr_line
+		(start 170 125)
+		(end 110 125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "39673fef-8d4a-4d72-a98c-533e9d4f1ed8")
+	)
+	(gr_line
+		(start 110 65)
+		(end 170 65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c600289-65ad-4d7f-8775-dc7110a44aac")
+	)
+	(gr_line
+		(start 110 125)
+		(end 110 65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "97275a8d-abca-4658-b4ba-0503ef4bf5ad")
+	)
+	(gr_line
+		(start 170 65)
+		(end 170 125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d57592bd-f931-4662-b8c3-03992f680700")
+	)
 )

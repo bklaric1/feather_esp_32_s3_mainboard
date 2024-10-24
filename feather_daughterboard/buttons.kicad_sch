@@ -1,0 +1,3333 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b9207f75-61e3-4c6e-8ac1-2a8bc21b2912")
+	(paper "A4")
+	(lib_symbols
+		(symbol "430182050816_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Value" "430182050816"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Custom footprints:430182050816"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "430182050816_1_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.47 2.74) (xy 1.04 -0.07)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "430182050816_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Value" "430182050816"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Custom footprints:430182050816"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "430182050816_2_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.47 2.74) (xy 1.04 -0.07)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Projektarbeit_button:430182050816"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S4"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Value" "430182050816"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Custom footprints:430182050816"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "430182050816_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.47 2.74) (xy 1.04 -0.07)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WCAP-CSGP_0603:WCAP-CSGP_0603"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WCAP-CSGP_0603"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Wurth Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "885012206020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WCAP-CSGP_0603_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.6426 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9279 0) (xy 2.5705 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WRIS-RSKS_0603:WRIS-RSKS_0603"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WRIS-RSKS_0603"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WRIS-RSKS_0603_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 137.16 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f8488a-d94e-4060-ba2e-cdd395bb4e66")
+	)
+	(junction
+		(at 100.33 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3330a168-6931-41e7-86d9-f077e252c989")
+	)
+	(junction
+		(at 100.33 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40c9042c-97d8-4632-803a-008e928a7240")
+	)
+	(junction
+		(at 156.21 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4779f666-d7b4-45ee-a84b-6469f4d48a41")
+	)
+	(junction
+		(at 173.99 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "634f2f80-b286-4dcd-8ef8-d8decf975fea")
+	)
+	(junction
+		(at 158.75 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69affaa1-2b70-456e-b287-58a68fcb1e81")
+	)
+	(junction
+		(at 173.99 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83aa5be6-55ce-4cae-aa92-4c550bf8a667")
+	)
+	(junction
+		(at 137.16 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863f799f-917c-4e70-8343-6113dc01591b")
+	)
+	(junction
+		(at 209.55 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8713e318-7693-4652-a2c0-d938456207a4")
+	)
+	(junction
+		(at 173.99 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94b39064-532f-453f-bb21-a510b93d2afc")
+	)
+	(junction
+		(at 137.16 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c19347-d011-42d9-b758-2bc9aec0e813")
+	)
+	(junction
+		(at 137.16 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96d453b-6282-4073-afb0-012e7aec459c")
+	)
+	(junction
+		(at 173.99 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc1bf7d0-d246-48c2-bcd5-20529fe85fcc")
+	)
+	(junction
+		(at 100.33 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c729d72d-9c72-4917-9ab9-36220d98910c")
+	)
+	(junction
+		(at 173.99 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcf1c49c-e69f-4fa2-be74-0362434f58d3")
+	)
+	(junction
+		(at 121.92 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df9878d4-9996-4634-91ed-ea586888cc38")
+	)
+	(junction
+		(at 156.21 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5918fe1-85d1-4937-be16-180e507402a4")
+	)
+	(junction
+		(at 137.16 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a3786c-5d62-405c-93ab-32d2acf5bcd3")
+	)
+	(junction
+		(at 209.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7ee93f4-154c-446d-9f09-ac9765f500ff")
+	)
+	(junction
+		(at 194.31 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f639b55b-5ac5-490d-9db6-155acc44ca0a")
+	)
+	(junction
+		(at 209.55 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb8e995a-99b5-49fe-9d24-3b6caf1c8eae")
+	)
+	(junction
+		(at 85.09 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2cc812-38fb-4c7e-a569-bdd87c10813f")
+	)
+	(wire
+		(pts
+			(xy 219.71 95.25) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a9cc67-c5e7-4070-8b4f-f79a452159d5")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bfec7b-48f8-4394-acd9-6f5ec6f97558")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfb40c9-08ca-4ae0-b214-d9f36d6ecd02")
+	)
+	(wire
+		(pts
+			(xy 184.15 95.25) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d74df2e-3259-4f9d-a435-e9150ebd20a4")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 173.99 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e35f5e-1519-4cd9-a02d-c5989ccf7248")
+	)
+	(wire
+		(pts
+			(xy 194.31 87.63) (xy 194.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19141702-974f-4270-8289-22798db2abd8")
+	)
+	(wire
+		(pts
+			(xy 209.55 72.39) (xy 209.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a391c34-6007-4fd9-b297-6e934e180a0b")
+	)
+	(wire
+		(pts
+			(xy 85.09 95.25) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa1e1cd-5872-4d5a-8560-24cc9aa24cb4")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc5b772-337f-4c0b-9330-9a2e16eeeb06")
+	)
+	(wire
+		(pts
+			(xy 219.71 102.87) (xy 219.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccfbf03-188b-4dcd-8498-33be2d50b738")
+	)
+	(wire
+		(pts
+			(xy 121.92 106.68) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdac63f-f3e0-4f2a-8194-fcd68feea6e9")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ff5648-1902-47ca-a95b-77b4f29a1ff2")
+	)
+	(wire
+		(pts
+			(xy 158.75 105.41) (xy 158.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a1687e-d22f-43d3-abe6-a4aa660e4e42")
+	)
+	(wire
+		(pts
+			(xy 100.33 91.44) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260619c2-8a42-48d8-a270-79ae7c31c79a")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6001dd-2044-4e3c-9dec-6b0c89e5d31e")
+	)
+	(wire
+		(pts
+			(xy 100.33 106.68) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d12ea8e-7a5a-43ae-aa74-4bdf2b583e13")
+	)
+	(wire
+		(pts
+			(xy 173.99 102.87) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33421ab6-6d31-4791-8b6d-1a273e33aa32")
+	)
+	(wire
+		(pts
+			(xy 110.49 102.87) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b870871-6622-43f3-a2a6-f63bd2b85f24")
+	)
+	(wire
+		(pts
+			(xy 100.33 72.39) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1ce3ae-b790-4de0-ae40-9efff4bee1cf")
+	)
+	(wire
+		(pts
+			(xy 194.31 105.41) (xy 194.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d4e6c7-fd59-4017-833b-dbe4011c1765")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4358706c-d2ce-4f52-9144-55c7f8fba6de")
+	)
+	(wire
+		(pts
+			(xy 100.33 106.68) (xy 100.33 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3fda17-da8f-4b12-a989-258a27034639")
+	)
+	(wire
+		(pts
+			(xy 156.21 121.92) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cea4031-8867-4bf7-8377-7fc5bbaa4d24")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53db621c-cea6-4b36-9cf8-238371e4059a")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55297f71-7649-4d71-bfb2-b866105b095a")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9a8654-c228-4e26-be60-6fdf74ed2a23")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c56f5c-260b-40e6-9628-57145db5d9a7")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eecbaa-c2ab-4d06-9796-a553366e1e74")
+	)
+	(wire
+		(pts
+			(xy 137.16 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e7c8fb-ea1f-4aae-b2cc-df998e7f03ad")
+	)
+	(wire
+		(pts
+			(xy 194.31 95.25) (xy 194.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0b9970-24dd-4978-afed-d9e0b1958072")
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b28635b-0547-4860-922f-9fa20482e606")
+	)
+	(wire
+		(pts
+			(xy 173.99 91.44) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1c8986-24c1-4b2b-a6f1-4cc204b8a8ed")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dedc06-6158-49a5-8909-1dbb5614b0a4")
+	)
+	(wire
+		(pts
+			(xy 121.92 105.41) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938d087e-bd0d-414d-b58d-dad499f44538")
+	)
+	(wire
+		(pts
+			(xy 173.99 106.68) (xy 184.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50786ba-ff43-4e50-b48d-695547d8e876")
+	)
+	(wire
+		(pts
+			(xy 209.55 102.87) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ea5767-3ba1-4079-b8fb-a60c66ff3152")
+	)
+	(wire
+		(pts
+			(xy 209.55 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afb7f54a-961b-452f-a87b-31f78df5b6e8")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b094943d-bf03-4ef5-b764-d61090ba105c")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 173.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b0ffe6-3cf4-4f38-8d66-7026db5cc724")
+	)
+	(wire
+		(pts
+			(xy 158.75 87.63) (xy 158.75 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1c5515-2ea5-4a97-8a4a-b284d959aa93")
+	)
+	(wire
+		(pts
+			(xy 85.09 105.41) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb36311d-9782-4851-b051-e7d05c79ac5e")
+	)
+	(wire
+		(pts
+			(xy 147.32 102.87) (xy 147.32 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfff0237-c76b-4fe4-b5f6-0c1e1805ee00")
+	)
+	(wire
+		(pts
+			(xy 209.55 106.68) (xy 219.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d83d96-1398-429f-ab03-65dd199e71ec")
+	)
+	(wire
+		(pts
+			(xy 100.33 114.3) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c927d8-6c9e-477c-b841-3da2018bfbab")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96cc083-f1c6-48c4-a17b-3d3edacdc1a6")
+	)
+	(wire
+		(pts
+			(xy 121.92 87.63) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f38d30-0c85-4c87-bc37-de30823f343f")
+	)
+	(wire
+		(pts
+			(xy 85.09 87.63) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e085f3-3240-4606-9ff7-d0ac3ee343d9")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 209.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e324b309-c52f-454b-886e-20a655e178a8")
+	)
+	(wire
+		(pts
+			(xy 173.99 72.39) (xy 209.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cfd00a-8500-469a-87a4-0e87d207eff1")
+	)
+	(wire
+		(pts
+			(xy 137.16 72.39) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea17f317-49bc-41b0-b6f6-4f63a1ce388a")
+	)
+	(wire
+		(pts
+			(xy 209.55 91.44) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf6f8f3-deec-44dd-919b-ec13da8d6ee1")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec06dcf8-d93f-4772-b016-b6c79a909097")
+	)
+	(wire
+		(pts
+			(xy 173.99 72.39) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef267eb5-d34c-4bff-84a1-e40e7364262b")
+	)
+	(wire
+		(pts
+			(xy 156.21 72.39) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a8d4bd-1ad5-424d-b3e9-06830f8c1ab8")
+	)
+	(wire
+		(pts
+			(xy 184.15 102.87) (xy 184.15 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56127d0-80d5-4a3e-a681-bd31ea739fd1")
+	)
+	(wire
+		(pts
+			(xy 100.33 72.39) (xy 100.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8daffe0-b39a-43ec-b5a3-8dba941ef3ee")
+	)
+	(wire
+		(pts
+			(xy 194.31 106.68) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99eb60f-2448-458a-839b-7b3662877c1c")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabc0bf9-f258-4e4e-a547-c989257f7e3c")
+	)
+	(hierarchical_label "VCC"
+		(shape bidirectional)
+		(at 156.21 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "029f281e-151f-4bac-a47d-9018d6f7ea2e")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 156.21 121.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d556c2a-e6ab-4e45-a23b-d6587275bd3d")
+	)
+	(hierarchical_label "Button_2"
+		(shape input)
+		(at 121.92 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43ef37f5-5272-4af7-b66d-346a1a312820")
+	)
+	(hierarchical_label "Button_3"
+		(shape input)
+		(at 158.75 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68158e83-3f25-4b2b-be6a-f899e131913c")
+	)
+	(hierarchical_label "Button_4"
+		(shape input)
+		(at 194.31 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d29444e2-38de-45ab-aa2a-ecd9c144f721")
+	)
+	(hierarchical_label "Button_1"
+		(shape input)
+		(at 85.09 87.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d67aaa84-3861-45ce-b26f-bebf1f46e61e")
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 100.33 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f7c14e3-e71b-4867-821a-4adc109fab29")
+		(property "Reference" "R2_1"
+			(at 101.854 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 101.854 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 100.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc66dfe8-1054-48c4-b061-44d67d14e6b8")
+		)
+		(pin "1"
+			(uuid "73fc1fef-a8bd-4a95-ba89-2530387eb254")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R2_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
+		(at 85.09 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e810d18-58ce-49c1-9849-f89d76cb3b38")
+		(property "Reference" "C1_1"
+			(at 77.47 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.962 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92eb9ad5-6ad6-4bb4-9a87-b5963de83cc1")
+		)
+		(pin "1"
+			(uuid "17a9c442-e446-429e-9de8-3992b0acb065")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "C1_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
+		(at 194.31 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3072fc63-fc52-41d4-93c0-dfc72de07fb5")
+		(property "Reference" "C1_4"
+			(at 186.69 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.182 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "605ac214-f787-44df-9801-5f51a36f62f0")
+		)
+		(pin "1"
+			(uuid "fd57b173-a501-4f35-9285-aee9b812dfbe")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "C1_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 173.99 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3134eb8e-fbbc-40e1-b850-8312f9c2d17f")
+		(property "Reference" "R2_3"
+			(at 175.514 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 175.514 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d09f450-0c7a-490e-b22b-561bc1549c38")
+		)
+		(pin "1"
+			(uuid "fc15fd0a-1cf3-452b-b1c8-993ea6cba051")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R2_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 92.71 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "326b241b-fdaf-4a94-9bcb-f85078dfbadc")
+		(property "Reference" "R1_1"
+			(at 90.424 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75kΩ"
+			(at 90.17 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4e72bc7-2cef-4d94-bb09-d28b12bf7292")
+		)
+		(pin "1"
+			(uuid "6556ecfb-8d36-44b0-aca8-8b8c5b76a982")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R1_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 166.37 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a58ba5-4d59-40c1-b3f0-9dcd94ed8857")
+		(property "Reference" "R1_3"
+			(at 164.084 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75kΩ"
+			(at 163.83 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0566bf64-36f6-4b7d-87dd-c22b1c6eed0c")
+		)
+		(pin "1"
+			(uuid "fff120be-2a76-475a-ba31-9f0b160364d6")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 209.55 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c870f82-3121-40db-903c-c16da22d680a")
+		(property "Reference" "R2_4"
+			(at 211.074 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 211.074 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d534fcf-c4e0-4bc4-a885-59cb563dcfd9")
+		)
+		(pin "1"
+			(uuid "4cd5a87b-9612-4a32-9390-03b832c7628b")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R2_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 137.16 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef53295-5b86-4556-97a7-9eb2dbdf765d")
+		(property "Reference" "R2_2"
+			(at 138.684 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 138.684 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a52ac12-c927-495a-ad14-a53334dd24b3")
+		)
+		(pin "1"
+			(uuid "00fa9b9d-1daa-4c67-9256-7cbd17891a3d")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R2_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
+		(at 121.92 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c1d696b-a9d5-40a0-ba5a-fe52bffa976d")
+		(property "Reference" "C1_2"
+			(at 114.3 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 113.792 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 121.92 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4dce6662-01b5-4889-a754-cf58aad2d63b")
+		)
+		(pin "1"
+			(uuid "9b4ac9fc-3377-43fd-a664-54d96256f487")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "C1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "430182050816_1")
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 214.63 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adc61598-b9e5-4339-b3f3-878701f1992d")
+		(property "Reference" "S4"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom footprints:430182050816"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1b0845a7-a325-4851-bf99-18731d0911ca")
+		)
+		(pin "4"
+			(uuid "8a90c3dd-6b19-42cf-9240-59a585032ecf")
+		)
+		(pin "2"
+			(uuid "0b79798b-0b3e-4dfe-a060-6b8f4aa6c9d6")
+		)
+		(pin "1"
+			(uuid "818c41f5-ff8a-4214-a6a6-84760a6ff618")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 129.54 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afd70c33-4ae8-4bae-853d-950c94948c1c")
+		(property "Reference" "R1_2"
+			(at 127.254 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75kΩ"
+			(at 127 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea4a0831-a7e5-4021-b79b-000052236588")
+		)
+		(pin "1"
+			(uuid "8aa857d4-40ed-481d-a891-d2fdba56ec91")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R1_2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "430182050816_2")
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 142.24 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7fd1190-d271-4dd5-a5d1-ebad44bf70aa")
+		(property "Reference" "S2"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 142.24 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom footprints:430182050816"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(at 142.24 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d23ecd38-d68a-4b85-8d75-984acc4fb411")
+		)
+		(pin "4"
+			(uuid "f53eb88e-f5a8-4351-980f-e0f386fbe398")
+		)
+		(pin "2"
+			(uuid "2adfd83f-7814-4c56-86ea-e8a75a603dd9")
+		)
+		(pin "1"
+			(uuid "f9d21913-c7ab-446b-a70c-b5429e8ad80d")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
+		(at 158.75 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da1290a0-2ad9-4234-befb-f92a3ae05079")
+		(property "Reference" "C1_3"
+			(at 151.13 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 150.622 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "916c5beb-c3e1-47c3-8e2c-070b1895bda5")
+		)
+		(pin "1"
+			(uuid "79195c92-8ee9-4f9a-b454-44d2b2e431df")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "C1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 201.93 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7c44300-7852-4d51-bcc1-505c1eb060e4")
+		(property "Reference" "R1_4"
+			(at 199.644 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75kΩ"
+			(at 199.39 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 201.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbe5ed56-9acd-4ea3-8c46-613fc1bc856b")
+		)
+		(pin "1"
+			(uuid "588cef56-d225-4b57-b0ab-a5cf70de6083")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "R1_4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "430182050816_1")
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 179.07 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f342cda0-80f3-45c8-9324-eaa9560995ea")
+		(property "Reference" "S3"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom footprints:430182050816"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba5a683a-89e0-446f-80f6-833d11903a66")
+		)
+		(pin "4"
+			(uuid "cdb2e093-4080-4a99-ab9e-2f2b8d3f5707")
+		)
+		(pin "2"
+			(uuid "466ba970-2356-4198-8e5c-48d6d91fc431")
+		)
+		(pin "1"
+			(uuid "ca223ec2-6da2-4e83-9096-7e9e9a28dfd6")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Projektarbeit_button:430182050816")
+		(at 105.41 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5e688da-1634-4baf-8bca-53c3e6a282e8")
+		(property "Reference" "S1"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "430182050816"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom footprints:430182050816"
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(at 105.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ee5b0232-85c4-4092-9686-1ec707413786")
+		)
+		(pin "4"
+			(uuid "a7349ed9-98aa-4509-8119-dcdd33ee0a4f")
+		)
+		(pin "2"
+			(uuid "bc55a8db-363a-46fa-afb5-d050711fb401")
+		)
+		(pin "1"
+			(uuid "c7d1a1aa-7e1c-483e-b717-a6cc6a476d72")
+		)
+		(instances
+			(project "feather_daughterboard"
+				(path "/f87bd391-02e1-482b-840f-25c34f805c61/1643200e-4944-407e-95a0-66f0524df32d"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

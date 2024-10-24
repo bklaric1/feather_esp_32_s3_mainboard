@@ -572,7 +572,7 @@
 				)
 			)
 		)
-		(symbol "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0"
+		(symbol "WCAP-CSGP_0603:WCAP-CSGP_0603"
 			(pin_names
 				(offset 1.016)
 			)
@@ -588,7 +588,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "WCAP-CSGP_1210_H2.0"
+			(property "Value" "WCAP-CSGP_0603"
 				(at 1.27 -5.08 0)
 				(effects
 					(font
@@ -597,7 +597,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -624,146 +624,87 @@
 					(hide yes)
 				)
 			)
-			(symbol "WCAP-CSGP_1210_H2.0_0_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.6426 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 0.635 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.9279 0) (xy 2.5705 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "WCAP-CSGP_1210_H2.0_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C1"
-				(at -0.762 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0.1µF"
-				(at -1.778 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
+			(property "MF" "Würth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Package" "0603 Wurth Electronics"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "WCAP-CSGP_1210_H2.0_1_0_0"
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "885012206020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WCAP-CSGP_0603_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0.6426 0)
@@ -858,10 +799,16 @@
 		(uuid "16872e2e-543e-4c0c-bb1f-8f1d6a3f3f9e")
 	)
 	(junction
-		(at 133.35 55.88)
+		(at 118.11 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2cb77d21-572d-483a-9221-8cd49ef87e64")
+		(uuid "21c14efc-bc34-44ef-b9b9-fea8cf2b6fad")
+	)
+	(junction
+		(at 110.49 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "490bce40-acb4-4381-b194-6a50d592b152")
 	)
 	(junction
 		(at 125.73 78.74)
@@ -876,10 +823,16 @@
 		(uuid "a1e08db1-e355-4fff-b15b-74747f49eb38")
 	)
 	(junction
-		(at 118.11 55.88)
+		(at 125.73 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5d26726-e27f-4da3-8ccf-9e1a20b8b503")
+		(uuid "b3af1b5a-1709-4a0a-b8dc-ab7a566b7108")
+	)
+	(junction
+		(at 133.35 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7225850-1812-4b44-915e-eab7be73d549")
 	)
 	(junction
 		(at 118.11 71.12)
@@ -888,26 +841,10 @@
 		(uuid "e6fb5611-bb56-4a3b-b7b7-ccdc2918bad7")
 	)
 	(junction
-		(at 125.73 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed29414e-fb6e-408f-bd47-50d11e342583")
-	)
-	(junction
 		(at 133.35 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef5c2012-4977-4544-93f1-d6135418aa95")
-	)
-	(junction
-		(at 110.49 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9f7ce1a-ff99-43f2-91aa-5c3d268b73e6")
-	)
-	(no_connect
-		(at 222.25 82.55)
-		(uuid "7e61191c-38fb-436c-9d90-8da1ff985346")
 	)
 	(no_connect
 		(at 222.25 86.36)
@@ -973,13 +910,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 133.35 71.12)
+			(xy 125.73 55.88) (xy 125.73 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f61a8fb-6e8e-41ff-aeac-ac6b960fb2cb")
+		(uuid "2dc78e23-33ca-48c5-82d0-3499cd737367")
 	)
 	(wire
 		(pts
@@ -990,16 +927,6 @@
 			(type default)
 		)
 		(uuid "34700042-7707-4d08-a49e-71068fa71b51")
-	)
-	(wire
-		(pts
-			(xy 125.73 40.64) (xy 125.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3775b5a3-e246-4489-86da-e261efa19d7c")
 	)
 	(wire
 		(pts
@@ -1053,6 +980,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 55.88) (xy 133.35 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657c5d5e-8311-465f-b364-a35fdb6519eb")
+	)
+	(wire
+		(pts
 			(xy 95.25 82.55) (xy 140.97 82.55)
 		)
 		(stroke
@@ -1060,16 +997,6 @@
 			(type default)
 		)
 		(uuid "6c35ee87-10fd-4ad4-a749-da51b5a1af54")
-	)
-	(wire
-		(pts
-			(xy 118.11 55.88) (xy 118.11 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7290ec2e-5b8b-4f85-aca8-aeffc3b4fb0b")
 	)
 	(wire
 		(pts
@@ -1110,6 +1037,16 @@
 			(type default)
 		)
 		(uuid "90706f30-1125-471e-93b5-59246d990582")
+	)
+	(wire
+		(pts
+			(xy 118.11 55.88) (xy 118.11 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9083d64a-7f3a-4e68-81cb-20372a8d51e1")
 	)
 	(wire
 		(pts
@@ -1193,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 55.88) (xy 125.73 78.74)
+			(xy 125.73 40.64) (xy 125.73 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1230,6 +1167,16 @@
 			(type default)
 		)
 		(uuid "c1b5e222-6480-4025-8465-9a53f2c77854")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 110.49 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c446fd1c-5174-45e0-9402-79107ea0ec7a")
 	)
 	(wire
 		(pts
@@ -1290,16 +1237,6 @@
 			(type default)
 		)
 		(uuid "d427b46b-8cc7-4865-b566-8db2a73e34cc")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.88) (xy 110.49 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df63233b-3224-4c3a-ba57-a01056530875")
 	)
 	(wire
 		(pts
@@ -1411,6 +1348,18 @@
 		)
 		(uuid "1bd498c6-b62a-48ba-b8a2-a9445bf8ff47")
 	)
+	(hierarchical_label "DISPLAY_RST"
+		(shape bidirectional)
+		(at 95.25 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a1a9021-2d85-47e9-b77e-b40d8ee75fbd")
+	)
 	(hierarchical_label "Reset"
 		(shape bidirectional)
 		(at 95.25 67.31 180)
@@ -1422,6 +1371,18 @@
 			(justify right)
 		)
 		(uuid "2c1706d4-8e2a-4bd9-a5ac-e04f58338057")
+	)
+	(hierarchical_label "VBAT"
+		(shape bidirectional)
+		(at 222.25 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35164516-d3c3-4954-b815-2bbcaa3bf454")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -1471,18 +1432,6 @@
 		)
 		(uuid "636b5926-1f74-4a8e-b484-d66d669704a4")
 	)
-	(hierarchical_label "DISPLAY_RST"
-		(shape bidirectional)
-		(at 95.25 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65a40e03-c5d5-4782-a92b-e4cce0916207")
-	)
 	(hierarchical_label "SD_CLK"
 		(shape bidirectional)
 		(at 222.25 97.79 0)
@@ -1507,9 +1456,9 @@
 		)
 		(uuid "76e3f3a9-fbec-4f86-85dd-fbac04d98bd5")
 	)
-	(hierarchical_label "DISPLAY_DC"
+	(hierarchical_label "Button_4"
 		(shape bidirectional)
-		(at 95.25 93.98 180)
+		(at 95.25 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1517,19 +1466,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7ac781a1-130f-4af3-ae97-7bcb8a56940b")
-	)
-	(hierarchical_label "Button_2"
-		(shape bidirectional)
-		(at 95.25 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ecbf959-2173-4eb5-aaf3-782e9a5903ab")
+		(uuid "7ed08963-4bc3-4ed7-8cfb-61acbb967073")
 	)
 	(hierarchical_label "SD_DAT2"
 		(shape bidirectional)
@@ -1543,21 +1480,9 @@
 		)
 		(uuid "95e87dc0-5535-4748-9e33-ab733165af71")
 	)
-	(hierarchical_label "Button_1"
-		(shape bidirectional)
-		(at 95.25 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa98fde8-0816-4e6d-91f3-04eba4d1138f")
-	)
 	(hierarchical_label "Button_3"
 		(shape bidirectional)
-		(at 95.25 120.65 180)
+		(at 95.25 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1565,19 +1490,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b0953dbf-f298-4301-a320-d77375e802c4")
-	)
-	(hierarchical_label "Free"
-		(shape bidirectional)
-		(at 95.25 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb557401-fee0-4c22-bf95-aefa7b4fbbb1")
+		(uuid "9e9c2b9f-01d8-4306-b9d9-876742dc0d94")
 	)
 	(hierarchical_label "DISPLAY_BUSY"
 		(shape bidirectional)
@@ -1590,6 +1503,18 @@
 			(justify right)
 		)
 		(uuid "bee3487d-872c-4687-8e5c-95e565a61567")
+	)
+	(hierarchical_label "Button_2"
+		(shape bidirectional)
+		(at 95.25 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c36e5f5c-7156-4c47-8f9d-1eed9b68c1b3")
 	)
 	(hierarchical_label "DISPLAY_MOSI"
 		(shape bidirectional)
@@ -1626,6 +1551,30 @@
 			(justify left)
 		)
 		(uuid "d39815b5-001e-49fd-9464-ff1b00f40837")
+	)
+	(hierarchical_label "Button_1"
+		(shape bidirectional)
+		(at 95.25 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e65137d8-ae9c-4c15-9489-36b2415cf33a")
+	)
+	(hierarchical_label "DISPLAY_DC"
+		(shape bidirectional)
+		(at 95.25 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f051162c-81a4-4781-b565-c4d3f9fe68b2")
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 Feather 4MB Flash 2MB PSRAM:Adafruit_ESP32-S3_Feather")
@@ -1774,103 +1723,33 @@
 		)
 	)
 	(symbol
-		(lib_name "WCAP-CSGP_1210_H2.0_1")
-		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
-		(at 130.81 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1ddea998-7475-4b91-9c3d-d06e8f165f2f")
-		(property "Reference" "C1"
-			(at 131.064 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1µF"
-			(at 132.588 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
-			(at 130.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "454a5bca-a7be-4ae1-a02a-b8bd376b1325")
-		)
-		(pin "2"
-			(uuid "95f230b1-cfab-4cea-a48f-c55098736fa2")
-		)
-		(instances
-			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
 		(at 115.57 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b1f062dd-064c-4ecd-af61-546bb25ce154")
+		(uuid "c9acb6a0-daf8-4947-b6fa-ad3d8bd2398b")
 		(property "Reference" "C2"
-			(at 115.57 50.8 0)
+			(at 112.776 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1µF"
-			(at 117.094 52.578 0)
+		(property "Value" "100nF"
+			(at 111.506 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
 			(at 115.57 55.88 0)
 			(effects
 				(font
@@ -1897,16 +1776,245 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Würth Elektronik"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 115.57 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "437524ae-2734-4727-8fda-15403ff01408")
+			(uuid "90ac1a5e-c691-41a5-88c1-9974500710df")
 		)
 		(pin "2"
-			(uuid "59c05a03-9298-44eb-b8f0-2af79fe02692")
+			(uuid "7f010ecb-aeeb-4905-b8db-4c38d5680ded")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
+		(at 130.81 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb579d92-b2ae-4064-80c9-6d504607dfd5")
+		(property "Reference" "C1"
+			(at 128.016 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 126.746 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ba548e6-de8f-46ac-a3ae-5bf22875a915")
+		)
+		(pin "2"
+			(uuid "67d4c064-eddc-4a36-ba00-829a4c7e3d10")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
+					(reference "C1")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,108 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a86cbd3f-83d6-49f2-b94b-ad932585e6cd")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 152.4 62.23) (xy 165.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28078fa7-5cf2-499b-90bd-b3fa61647ec1")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e1352a-1ddc-4412-875e-81a43917ce08")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 165.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b015a1-4517-4389-9cb7-c977c76d801a")
+	)
+	(wire
+		(pts
+			(xy 152.4 58.42) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbb39e8-6e8c-41b8-bd71-76d134f4a9c4")
+	)
+	(text "Connector"
+		(exclude_from_sim no)
+		(at 149.098 101.346 0)
+		(effects
+			(font
+				(size 20 20)
+				(thickness 4)
+				(bold yes)
+			)
+		)
+		(uuid "a1dd8c1c-c41d-4604-b7dd-94dc3d819599")
+	)
+	(hierarchical_label "Button_4"
+		(shape bidirectional)
+		(at 152.4 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4731a0b1-8d2c-422c-9546-09628dde2f06")
+	)
+	(hierarchical_label "Button_2"
+		(shape bidirectional)
+		(at 152.4 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55aa6808-0028-48cc-bb29-3f058e828326")
+	)
+	(hierarchical_label "Button_3"
+		(shape bidirectional)
+		(at 152.4 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57cf1c48-d267-4c42-8714-b238425d0084")
+	)
+	(hierarchical_label "Button_1"
+		(shape bidirectional)
+		(at 152.4 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc19fef7-3f01-4608-ae5b-8b5aa8affd4a")
+	)
+)
