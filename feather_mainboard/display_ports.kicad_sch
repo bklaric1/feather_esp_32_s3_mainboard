@@ -582,6 +582,18 @@
 		)
 		(uuid "bb144dc5-6936-4807-9d2e-3cd449fa4a95")
 	)
+	(text "Need to change the connector"
+		(exclude_from_sim no)
+		(at 138.684 70.612 0)
+		(effects
+			(font
+				(size 10 10)
+				(thickness 4)
+				(bold yes)
+			)
+		)
+		(uuid "28c67577-95bc-4690-906f-850185d98687")
+	)
 	(hierarchical_label "VCC"
 		(shape bidirectional)
 		(at 139.7 100.33 180)

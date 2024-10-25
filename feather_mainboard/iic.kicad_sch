@@ -443,9 +443,87 @@
 			)
 		)
 	)
+	(junction
+		(at 144.78 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd1e19f-3ee8-4afd-b0d7-aba8e6c3a320")
+	)
+	(junction
+		(at 154.94 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e789a496-bfc9-4f23-bedd-f8dec37f26ba")
+	)
+	(junction
+		(at 149.86 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f076dea0-cd01-4324-991e-9df9c8b4bd43")
+	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 152.4 74.93)
+			(xy 154.94 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d28840a-ff45-4b68-9765-ed636ddb8e5e")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7b7726-1e55-418e-a6db-0fedfdeedcb6")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53afc07b-4fb5-4c32-b1f2-673fe4e470d9")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 161.29 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562a4726-1e7b-4109-95dc-8fcb29a0cec0")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ed5cb8-18c7-4d0a-8a9a-dc430ed64dd5")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca7076c-d012-4dc0-a8c5-53a4aa4c2800")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +533,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 71.12) (xy 152.4 71.12)
+			(xy 138.43 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -463,9 +541,61 @@
 		)
 		(uuid "9b172399-bc69-4ad7-a842-9d3cbc1afc8a")
 	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b689811-d781-4565-9e58-c11ebfd770a3")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf0bb59-7142-4a7b-b6f4-d8a98a5b35c8")
+	)
+	(wire
+		(pts
+			(xy 154.94 111.76) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45880e1-4876-485d-b0d1-8976457f3767")
+	)
+	(global_label "VCC"
+		(shape bidirectional)
+		(at 149.86 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e033860-9ee0-4a48-86ec-f589c2e282a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 77.3649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 138.43 74.93 180)
+		(at 138.43 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -478,7 +608,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 138.43 71.12 180)
+		(at 138.43 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -491,16 +621,15 @@
 	)
 	(symbol
 		(lib_id "6130XX11121_61300211121:6130XX11121_61300211121")
-		(at 165.1 74.93 270)
+		(at 166.37 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07c7f7a1-1579-4c1b-afaa-bae3f514cb23")
 		(property "Reference" "J4"
-			(at 166.37 73.6599 90)
+			(at 163.83 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +638,7 @@
 			)
 		)
 		(property "Value" "61300211121"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,7 +648,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:61300211121"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +676,7 @@
 			)
 		)
 		(property "ROWS" "Single"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +686,7 @@
 			)
 		)
 		(property "GENDER" "Pin Header"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -567,7 +696,7 @@
 			)
 		)
 		(property "MOUNT" "THT"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +706,7 @@
 			)
 		)
 		(property "IR" "3A"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,7 +716,7 @@
 			)
 		)
 		(property "PACKAGING" "Bag"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +726,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +736,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61300211121?ae"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -617,7 +746,7 @@
 			)
 		)
 		(property "PITCH" "2.54mm"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,7 +756,7 @@
 			)
 		)
 		(property "PART-NUMBER" "61300211121"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +766,7 @@
 			)
 		)
 		(property "TYPE" "Straight"
-			(at 165.1 74.93 0)
+			(at 166.37 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,16 +792,15 @@
 	)
 	(symbol
 		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
-		(at 180.34 55.88 90)
+		(at 154.94 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d48c56b0-9d93-4bdf-a7fb-9c073b49ccfc")
-		(property "Reference" "R5"
-			(at 182.88 54.6099 90)
+		(uuid "4a4c6faa-c636-4b38-b263-6e811cfda443")
+		(property "Reference" "R4"
+			(at 156.464 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,8 +808,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "WRIS-RSKS_0603"
-			(at 182.88 57.1499 90)
+		(property "Value" "10kΩ"
+			(at 156.464 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,7 +818,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
-			(at 180.34 55.88 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,7 +827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 55.88 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 55.88 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,16 +844,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f357bf29-1540-4eb2-9430-d7e83925dcc9")
-		)
 		(pin "2"
-			(uuid "9200c649-b146-4284-85f6-08893a781294")
+			(uuid "d49af085-747c-4b70-8bba-8a00bf7bd7da")
+		)
+		(pin "1"
+			(uuid "26b0131c-8561-401c-acdd-3d9737bd65cf")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/9211cf2c-296b-49a8-984c-d8eee48b72b3"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -733,16 +861,15 @@
 	)
 	(symbol
 		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
-		(at 152.4 55.88 90)
+		(at 144.78 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3e5fdfc-4419-4121-b70a-d15c7422f7f4")
 		(property "Reference" "R3"
-			(at 154.94 54.6099 90)
+			(at 146.304 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -750,8 +877,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 154.94 57.1499 90)
+		(property "Value" "10kΩ"
+			(at 146.304 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +887,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
-			(at 152.4 55.88 0)
+			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 55.88 0)
+			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 55.88 0)
+			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

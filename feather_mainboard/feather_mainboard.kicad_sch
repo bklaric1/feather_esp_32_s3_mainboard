@@ -19,6 +19,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 59.69) (xy 177.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ac8073-0233-47e6-9e67-d80a1208d8b4")
+	)
+	(wire
+		(pts
 			(xy 172.72 100.33) (xy 209.55 100.33)
 		)
 		(stroke
@@ -119,6 +129,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 60.96) (xy 179.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465ee75f-d611-4037-b187-033e593523de")
+	)
+	(wire
+		(pts
 			(xy 45.72 88.9) (xy 133.35 88.9)
 		)
 		(stroke
@@ -126,16 +146,6 @@
 			(type default)
 		)
 		(uuid "5805ac56-d423-4f50-8a3b-6dc0af99fbc4")
-	)
-	(wire
-		(pts
-			(xy 198.12 59.69) (xy 198.12 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a0b384a-e6e6-4006-9b68-ad16db3c1c4c")
 	)
 	(wire
 		(pts
@@ -199,7 +209,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 59.69) (xy 198.12 59.69)
+			(xy 177.8 58.42) (xy 209.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -279,6 +289,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ac0d2f-8da3-47a4-a383-bcf452ba83ed")
+	)
+	(wire
+		(pts
 			(xy 172.72 104.14) (xy 209.55 104.14)
 		)
 		(stroke
@@ -339,23 +359,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 64.77) (xy 203.2 60.96)
+			(xy 177.8 59.69) (xy 177.8 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba5c067c-aea5-4691-b534-0eaa3271ec32")
-	)
-	(wire
-		(pts
-			(xy 198.12 58.42) (xy 209.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7b4020-4c16-406a-984c-8c9b21bd57c8")
+		(uuid "b94afeb3-2d87-4b23-ab4c-477c5e9ab468")
 	)
 	(wire
 		(pts
@@ -389,17 +399,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 64.77) (xy 203.2 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46543ad-466c-441f-8f89-df813fdb191e")
-	)
-	(wire
-		(pts
-			(xy 203.2 60.96) (xy 209.55 60.96)
+			(xy 179.07 60.96) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -467,18 +467,16 @@
 		)
 		(uuid "f7b45ddf-52e2-402a-89a1-9ec9ae437507")
 	)
-	(text "TODOs:\n	Schematic:\n	- Change the buttons to the correct ones!!!\n	- Pogo-Pin Magnets\n\n	PCB Design:\n	- Mounting Holes\n	- Messpunkte\n	- Text in PCB für Switches schreiben"
+	(text "Nummerierung!"
 		(exclude_from_sim no)
-		(at 52.07 149.606 0)
+		(at 153.416 146.558 0)
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.4)
+				(size 10 10)
 				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "1f15bef7-b1e7-420b-8701-d8cc4b11db5c")
+		(uuid "3491f621-64df-45e7-9572-ee106c6f2885")
 	)
 	(text "?"
 		(exclude_from_sim no)
@@ -960,7 +958,7 @@
 			(uuid "b7ca4eff-d52a-4900-84a8-4bcc23efdcec")
 		)
 		(pin "IIC_SDA" bidirectional
-			(at 172.72 64.77 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 152.4 62.23) (xy 165.1 62.23)
+			(xy 144.78 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 50.8) (xy 165.1 50.8)
+			(xy 144.78 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 165.1 54.61)
+			(xy 144.78 80.01) (xy 157.48 80.01)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 165.1 58.42)
+			(xy 144.78 83.82) (xy 157.48 83.82)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(text "Connector"
 		(exclude_from_sim no)
-		(at 149.098 101.346 0)
+		(at 150.368 106.426 0)
 		(effects
 			(font
 				(size 20 20)
@@ -59,7 +59,7 @@
 	)
 	(hierarchical_label "Button_4"
 		(shape bidirectional)
-		(at 152.4 62.23 180)
+		(at 144.78 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -71,7 +71,7 @@
 	)
 	(hierarchical_label "Button_2"
 		(shape bidirectional)
-		(at 152.4 54.61 180)
+		(at 144.78 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -83,7 +83,7 @@
 	)
 	(hierarchical_label "Button_3"
 		(shape bidirectional)
-		(at 152.4 58.42 180)
+		(at 144.78 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -95,7 +95,7 @@
 	)
 	(hierarchical_label "Button_1"
 		(shape bidirectional)
-		(at 152.4 50.8 180)
+		(at 144.78 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
