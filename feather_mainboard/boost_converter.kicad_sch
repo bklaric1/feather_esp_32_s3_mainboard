@@ -907,10 +907,16 @@
 		)
 	)
 	(junction
-		(at 162.56 106.68)
+		(at 161.29 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d235895-281a-4c01-9bc2-3d8dd02f8fb2")
+		(uuid "56f5dc9a-70f2-4a98-b2d1-286dfa87c52d")
+	)
+	(junction
+		(at 161.29 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9ab471-cf94-4115-86f8-047f37c301fd")
 	)
 	(junction
 		(at 133.35 106.68)
@@ -925,16 +931,10 @@
 		(uuid "8e6b33a3-727e-4ba6-a8c5-a66667894bf3")
 	)
 	(junction
-		(at 147.32 110.49)
+		(at 147.32 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a74042-016a-40de-99b4-0a8e80d88a91")
-	)
-	(junction
-		(at 162.56 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0cd0b29-5009-4a59-9d7c-f9e2d14a092d")
 	)
 	(junction
 		(at 113.03 93.98)
@@ -950,7 +950,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 172.72 110.49)
+			(xy 161.29 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0194ecc8-833f-45af-9b5f-c712776e1434")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 162.56 93.98)
+			(xy 157.48 93.98) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 147.32 110.49)
+			(xy 113.03 113.03) (xy 147.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 143.51 86.36)
+			(xy 133.35 87.63) (xy 143.51 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 172.72 110.49)
+			(xy 172.72 106.68) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 162.56 106.68)
+			(xy 161.29 104.14) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 106.68) (xy 162.56 106.68)
+			(xy 157.48 106.68) (xy 161.29 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 147.32 118.11)
+			(xy 147.32 113.03) (xy 147.32 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 162.56 86.36)
+			(xy 151.13 87.63) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1150,17 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 177.8 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92b6c6ed-6c48-440c-92a6-764c54ad8146")
-	)
-	(wire
-		(pts
-			(xy 113.03 106.68) (xy 113.03 110.49)
+			(xy 113.03 106.68) (xy 113.03 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1170,13 +1170,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 93.98) (xy 162.56 96.52)
+			(xy 161.29 93.98) (xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a419dba2-82ec-4146-b076-2edf79a15374")
+	)
+	(wire
+		(pts
+			(xy 161.29 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acebf012-4f41-49c7-9255-84becb96617c")
 	)
 	(wire
 		(pts
@@ -1187,16 +1197,6 @@
 			(type default)
 		)
 		(uuid "b1e90d23-62b6-45ab-8066-bb1d7810405c")
-	)
-	(wire
-		(pts
-			(xy 162.56 106.68) (xy 172.72 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37faf83-3203-4e92-88fd-95398b8b4aac")
 	)
 	(wire
 		(pts
@@ -1220,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 86.36)
+			(xy 133.35 93.98) (xy 133.35 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1230,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 162.56 86.36 0)
+		(at 177.8 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1240,7 +1240,7 @@
 		)
 		(uuid "34868181-c482-4648-9e22-15bd9260c401")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.527 86.36 0)
+			(at 185.767 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 147.32 118.11 270)
+		(at 147.32 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1262,7 +1262,7 @@
 		)
 		(uuid "975e7b6b-5d60-444b-a13a-561355705a9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 126.077 90)
+			(at 147.32 128.617 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,7 +1273,7 @@
 		)
 	)
 	(hierarchical_label "VIN+"
-		(shape input)
+		(shape bidirectional)
 		(at 102.87 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1285,7 +1285,7 @@
 		(uuid "5f113f55-5a90-49fc-a289-8e6d005afeb0")
 	)
 	(hierarchical_label "VOUT+"
-		(shape output)
+		(shape bidirectional)
 		(at 177.8 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1306,7 +1306,7 @@
 		(dnp no)
 		(uuid "03e5080d-bcea-44b5-ab79-63b39b513899")
 		(property "Reference" "U4"
-			(at 147.32 91.948 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,6 +1319,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Custom footprints:WPME-FISM_SMT-8_L13.2W11.4H7.25"
@@ -1349,16 +1350,16 @@
 			)
 		)
 		(pin "5"
-			(uuid "92a06163-e581-478e-884a-024303e6587d")
+			(uuid "5b792cc6-ec36-4da7-852c-eb2ab5a14824")
 		)
 		(pin "4"
-			(uuid "8016a72b-2f60-4ffc-b5ee-39e2638d7914")
+			(uuid "f6ebc38d-694a-460f-876f-612bf6c885f9")
 		)
 		(pin "1"
-			(uuid "870affaa-c93e-4cea-b82d-a1a4f35df02b")
+			(uuid "00191dba-593e-458d-bc41-5cae110ee533")
 		)
 		(pin "2"
-			(uuid "fbf25cf6-e699-45d8-bb48-c34631eff7c5")
+			(uuid "d6b97f7a-49d8-4b7f-a3a2-120ea39481d5")
 		)
 		(instances
 			(project "feather_mainboard"
@@ -1379,7 +1380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21d8092a-4b08-4f26-894d-a79ca849ea0a")
-		(property "Reference" "C5"
+		(property "Reference" "C4_1"
 			(at 124.968 99.06 90)
 			(effects
 				(font
@@ -1425,15 +1426,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7dfea74a-b503-4160-9e22-c4edc81a27c4")
+			(uuid "b9500fe6-8e1a-4ced-90af-a60fb3cb428c")
 		)
 		(pin "1"
-			(uuid "f78cd36d-fba7-4e35-94e8-fac1eb0f3a00")
+			(uuid "5810c6f0-591d-4d86-872d-48e42a8834c5")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/bcd38403-f30d-4d25-9221-d4e2b9310dad"
-					(reference "C5")
+					(reference "C4_1")
 					(unit 1)
 				)
 			)
@@ -1448,7 +1449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4903f19d-0ce6-4425-a1ce-f464bebca89e")
-		(property "Reference" "C6"
+		(property "Reference" "C4_2"
 			(at 105.41 99.06 90)
 			(effects
 				(font
@@ -1494,15 +1495,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e5e238f1-70c9-45aa-bd6f-0728cb26d380")
+			(uuid "02ac860a-3fae-4617-bf4e-ccc4a3d1ddc4")
 		)
 		(pin "2"
-			(uuid "8c53b496-268c-43b2-af93-49c776bf9450")
+			(uuid "8c74480b-c450-4b92-b93a-d874a04b4b7b")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/bcd38403-f30d-4d25-9221-d4e2b9310dad"
-					(reference "C6")
+					(reference "C4_2")
 					(unit 1)
 				)
 			)
@@ -1511,15 +1512,15 @@
 	(symbol
 		(lib_name "WCAP-CSGP_1210_H2.0_1")
 		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
-		(at 162.56 99.06 270)
+		(at 161.29 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d5ca6da-9cc2-412d-b00e-587cc6011fed")
-		(property "Reference" "C3"
-			(at 165.354 99.568 90)
+		(property "Reference" "C2_1"
+			(at 164.084 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1529,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 165.354 101.346 90)
+			(at 164.084 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1538,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
-			(at 162.56 99.06 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 99.06 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 99.06 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,15 +1565,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "78cbf377-f428-4dff-b870-02d3120e78d7")
+			(uuid "9f8618ea-48be-41fa-ab2b-f03b2fa497f4")
 		)
 		(pin "1"
-			(uuid "b8d2a72a-4100-44a5-948b-e04edb180330")
+			(uuid "9ce8e9bb-ff28-4bdd-8bd0-4606790b13e3")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/bcd38403-f30d-4d25-9221-d4e2b9310dad"
-					(reference "C3")
+					(reference "C2_1")
 					(unit 1)
 				)
 			)
@@ -1580,15 +1581,15 @@
 	)
 	(symbol
 		(lib_id "WCAP-CSMH_1808_H2.0:WCAP-CSMH_1808_H2.0")
-		(at 146.05 86.36 0)
+		(at 146.05 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc7c65a8-5274-4fcf-aa75-f4782754b052")
-		(property "Reference" "C4"
-			(at 147.32 81.534 0)
+		(property "Reference" "C3"
+			(at 147.32 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1597,7 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 147.574 83.312 0)
+			(at 147.574 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1605,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:WCAP-CSMH_1808_H2.0"
-			(at 146.05 86.36 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 86.36 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 86.36 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,15 +1633,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa5b1aed-c1c2-4ff3-a1e4-8469a84e0396")
+			(uuid "e2def0d1-d210-486f-9846-ce362f9dcad8")
 		)
 		(pin "1"
-			(uuid "11ead4bf-97ad-454c-9b1d-4a2ae0616dce")
+			(uuid "f4d52bf9-0ac8-453a-a373-16830497e618")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/bcd38403-f30d-4d25-9221-d4e2b9310dad"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1700,10 +1701,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56c6af70-11aa-47c7-af70-e1d9ebafe35e")
+			(uuid "170ea43c-9765-4023-984f-859ffc01a4c5")
 		)
 		(pin "2"
-			(uuid "21e83575-fe70-4a01-8884-616d2f77a14e")
+			(uuid "f7885c1e-9274-442f-ac89-6627f6612adf")
 		)
 		(instances
 			(project "feather_mainboard"

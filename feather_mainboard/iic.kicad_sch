@@ -600,7 +600,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(bold yes)
 			)
 			(justify right)
 		)
@@ -613,7 +612,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(bold yes)
 			)
 			(justify right)
 		)
@@ -628,7 +626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07c7f7a1-1579-4c1b-afaa-bae3f514cb23")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 163.83 106.934 90)
 			(effects
 				(font
@@ -776,15 +774,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e89a6e5b-826c-40f9-a2ea-57fd689a950f")
+			(uuid "6e4ab9fe-c5b8-4fb0-af23-c2338e8055e3")
 		)
 		(pin "2"
-			(uuid "4ade56ca-1bff-4435-9f2b-626b4602796b")
+			(uuid "18ab08e4-8ac8-4fdd-a949-569428f65440")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/9211cf2c-296b-49a8-984c-d8eee48b72b3"
-					(reference "J4")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/ff9ad5fa-00ba-4ea3-956b-8f18c92a633c"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -799,7 +797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a4c6faa-c636-4b38-b263-6e811cfda443")
-		(property "Reference" "R4"
+		(property "Reference" "R1_4"
 			(at 156.464 96.774 90)
 			(effects
 				(font
@@ -845,15 +843,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d49af085-747c-4b70-8bba-8a00bf7bd7da")
+			(uuid "dce86550-e3f4-4a81-9326-e0b3aa4e6be5")
 		)
 		(pin "1"
-			(uuid "26b0131c-8561-401c-acdd-3d9737bd65cf")
+			(uuid "35fd3a3f-2a30-4e8e-b048-a0887905f76e")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/9211cf2c-296b-49a8-984c-d8eee48b72b3"
-					(reference "R4")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/ff9ad5fa-00ba-4ea3-956b-8f18c92a633c"
+					(reference "R1_4")
 					(unit 1)
 				)
 			)
@@ -868,7 +866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3e5fdfc-4419-4121-b70a-d15c7422f7f4")
-		(property "Reference" "R3"
+		(property "Reference" "R1_3"
 			(at 146.304 96.774 90)
 			(effects
 				(font
@@ -914,15 +912,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "83af8092-5514-44ce-8383-0af725f0bcc2")
+			(uuid "f49a593e-52e3-474d-8414-fc1da689c073")
 		)
 		(pin "1"
-			(uuid "fdead3bf-1146-4217-9717-b3c997447ddf")
+			(uuid "f252c4f7-6a32-49ae-8a2f-85812a8f0d0b")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/9211cf2c-296b-49a8-984c-d8eee48b72b3"
-					(reference "R3")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/ff9ad5fa-00ba-4ea3-956b-8f18c92a633c"
+					(reference "R1_3")
 					(unit 1)
 				)
 			)

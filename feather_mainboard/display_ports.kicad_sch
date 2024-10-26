@@ -5,23 +5,23 @@
 	(uuid "317b3ff4-99ba-4b28-8da2-2d928195c341")
 	(paper "A4")
 	(lib_symbols
-		(symbol "6130XX11121_61300811121:6130XX11121_61300811121"
+		(symbol "61900819521:61900819521"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at -9.906 -2.54 90)
+			(property "Reference" "J"
+				(at -9.64 -0.955 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right bottom)
 				)
 			)
-			(property "Value" "61300811121"
+			(property "Value" "61900819521"
 				(at 0 0 0)
 				(effects
 					(font
@@ -31,7 +31,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Custom footprints:61300811121"
+			(property "Footprint" "Custom footprints:61900819521"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "ROWS" "Single"
+			(property "MF" "Würth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,7 +69,37 @@
 					(hide yes)
 				)
 			)
-			(property "GENDER" "Pin Header"
+			(property "CONTACT-RESISTANCE" "20mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            EMI Gaskets, Sheets, Absorbers & Shielding\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "GENDER" "Male"
 				(at 0 0 0)
 				(effects
 					(font
@@ -89,7 +119,37 @@
 					(hide yes)
 				)
 			)
-			(property "IR" "3A"
+			(property "PITCH" "2.54mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/61900819521/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L" "20.32mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
 				(at 0 0 0)
 				(effects
 					(font
@@ -109,6 +169,56 @@
 					(hide yes)
 				)
 			)
+			(property "PART-NUMBER" "61900819521"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/61900819521/Wurth+Elektronik/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61900819521?ae"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "61900819521"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "WORKING-VOLTAGE" "250V(AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
 			(property "PINS" "8"
 				(at 0 0 0)
 				(effects
@@ -119,7 +229,7 @@
 					(hide yes)
 				)
 			)
-			(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61300811121?ae"
+			(property "TYPE" "Right Angled Top Locking"
 				(at 0 0 0)
 				(effects
 					(font
@@ -129,7 +239,7 @@
 					(hide yes)
 				)
 			)
-			(property "PITCH" "2.54mm"
+			(property "PCB-CABLE-PANEL" "PCB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -139,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "PART-NUMBER" "61300811121"
+			(property "Availability" "In Stock"
 				(at 0 0 0)
 				(effects
 					(font
@@ -149,20 +259,10 @@
 					(hide yes)
 				)
 			)
-			(property "TYPE" "Straight"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "6130XX11121_61300811121_0_0"
+			(symbol "61900819521_0_0"
 				(rectangle
-					(start -8.89 0)
-					(end 11.43 -2.54)
+					(start -8.89 -2.54)
+					(end 11.43 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -582,18 +682,6 @@
 		)
 		(uuid "bb144dc5-6936-4807-9d2e-3cd449fa4a95")
 	)
-	(text "Need to change the connector"
-		(exclude_from_sim no)
-		(at 138.684 70.612 0)
-		(effects
-			(font
-				(size 10 10)
-				(thickness 4)
-				(bold yes)
-			)
-		)
-		(uuid "28c67577-95bc-4690-906f-850185d98687")
-	)
 	(hierarchical_label "VCC"
 		(shape bidirectional)
 		(at 139.7 100.33 180)
@@ -691,16 +779,16 @@
 		(uuid "d7f3c36f-5bbb-4d0d-903b-7440b1a15895")
 	)
 	(symbol
-		(lib_id "6130XX11121_61300811121:6130XX11121_61300811121")
+		(lib_id "61900819521:61900819521")
 		(at 153.67 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07fee5fa-083b-4584-98a1-72e0624d6014")
+		(uuid "49be395f-2335-4392-9bf1-ffdafceeb68c")
 		(property "Reference" "J1"
-			(at 151.13 80.264 90)
+			(at 151.384 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,17 +796,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "61300811121"
-			(at 146.812 79.248 90)
+		(property "Value" "61900819521"
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom footprints:61300811121"
+		(property "Footprint" "Custom footprints:61900819521"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -746,7 +834,7 @@
 				(hide yes)
 			)
 		)
-		(property "ROWS" "Single"
+		(property "MF" "Würth Elektronik"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -756,7 +844,37 @@
 				(hide yes)
 			)
 		)
-		(property "GENDER" "Pin Header"
+		(property "CONTACT-RESISTANCE" "20mOhm"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            EMI Gaskets, Sheets, Absorbers & Shielding\n                        \n"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -776,7 +894,7 @@
 				(hide yes)
 			)
 		)
-		(property "IR" "3A"
+		(property "PITCH" "2.54mm"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -786,7 +904,27 @@
 				(hide yes)
 			)
 		)
-		(property "VALUE" "61300811121"
+		(property "Check_prices" "https://www.snapeda.com/parts/61900819521/Wurth+Elektronik/view-part/?ref=eda"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L" "20.32mm"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -806,6 +944,56 @@
 				(hide yes)
 			)
 		)
+		(property "PART-NUMBER" "61900819521"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/61900819521/Wurth+Elektronik/view-part/?ref=snap"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61900819521?ae"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "61900819521"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "WORKING-VOLTAGE" "250V(AC)"
+			(at 153.67 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(property "PINS" "8"
 			(at 153.67 90.17 0)
 			(effects
@@ -816,7 +1004,7 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61300811121?ae"
+		(property "TYPE" "Right Angled Top Locking"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -826,7 +1014,7 @@
 				(hide yes)
 			)
 		)
-		(property "PITCH" "2.54mm"
+		(property "PCB-CABLE-PANEL" "PCB"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -836,7 +1024,7 @@
 				(hide yes)
 			)
 		)
-		(property "PART-NUMBER" "61300811121"
+		(property "Availability" "In Stock"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -845,40 +1033,30 @@
 				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "TYPE" "Straight"
-			(at 153.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be7692a0-65a1-4c69-8494-4220c6f8b3b0")
-		)
-		(pin "5"
-			(uuid "4a258858-feed-41dc-a808-b40a14bb3f00")
-		)
-		(pin "7"
-			(uuid "972f3b68-3cfe-41b8-9004-72bb27c5465a")
-		)
-		(pin "3"
-			(uuid "ca6ea5bd-0a5b-4157-a153-d9440ed8af6d")
 		)
 		(pin "6"
-			(uuid "098dd930-3b5d-4de4-b836-3c7d38252bf7")
+			(uuid "50e6599a-39b8-4483-8ce1-3412f16eb205")
+		)
+		(pin "5"
+			(uuid "f5af90d6-5490-420a-ba02-fa3619366aad")
+		)
+		(pin "2"
+			(uuid "009d2c93-2d08-4430-bb6d-7104ac11daec")
 		)
 		(pin "1"
-			(uuid "109a0966-a7a4-4285-89fc-324a6ddf9bf6")
+			(uuid "d040a547-64f0-4496-bd78-5496de0459f0")
 		)
 		(pin "8"
-			(uuid "3ac4a267-91d3-419d-b206-19997eea22a4")
+			(uuid "39b84cba-e519-433d-8b5e-abc489b10f56")
+		)
+		(pin "3"
+			(uuid "9a92e249-e725-42a9-9e56-9026f9e27245")
+		)
+		(pin "7"
+			(uuid "3e3fe103-8aad-484e-8b35-831bd70c2410")
 		)
 		(pin "4"
-			(uuid "01e2ef52-5745-4a7e-9de9-fce1790c311a")
+			(uuid "0cd69b13-414d-454e-92ac-86d07880b754")
 		)
 		(instances
 			(project "feather_mainboard"

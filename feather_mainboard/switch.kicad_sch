@@ -261,7 +261,7 @@
 		(uuid "f35213e9-3e21-47fe-9139-04f77021c29c")
 	)
 	(hierarchical_label "Booster"
-		(shape output)
+		(shape bidirectional)
 		(at 154.94 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -273,7 +273,7 @@
 		(uuid "26e34a99-8ddc-4960-9277-69cd63fe2d01")
 	)
 	(hierarchical_label "3V3"
-		(shape output)
+		(shape bidirectional)
 		(at 154.94 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -285,7 +285,7 @@
 		(uuid "442d8b3d-f360-4e1e-a098-4bb2129989eb")
 	)
 	(hierarchical_label "Switch"
-		(shape input)
+		(shape bidirectional)
 		(at 132.08 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -411,13 +411,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "5ced1e9e-3dd2-451c-b3d6-84818678a3e8")
+			(uuid "478ce270-a2f7-4126-975b-1a950cc7d0ca")
 		)
 		(pin "1"
-			(uuid "5e7e40e4-eacd-4485-9294-56c1c403f8a3")
+			(uuid "abe24637-13d4-4e15-977d-2dcbedb57e1e")
 		)
 		(pin "3"
-			(uuid "2e1054a8-f685-4b18-b23b-fc89724fd9fd")
+			(uuid "a3cc5a45-b66e-4efe-bac8-e7d5662f6103")
 		)
 		(instances
 			(project "feather_mainboard"

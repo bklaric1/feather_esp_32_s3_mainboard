@@ -10,7 +10,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 0 34.544 0)
+				(at 0 33.782 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,7 +18,7 @@
 				)
 			)
 			(property "Value" "Adafruit ESP32-S3 Feather"
-				(at 0 32.766 0)
+				(at 0.508 31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,7 +26,7 @@
 				)
 			)
 			(property "Footprint" "Custom footprints:Adafruit ESP32-S3 Feather 4MB Flash 2MB PSRAM"
-				(at 0 -34.29 0)
+				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -35,7 +35,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -5.08 -6.35 0)
+				(at -3.81 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +44,7 @@
 				)
 			)
 			(property "Description" ""
-				(at -5.08 -6.35 0)
+				(at -3.81 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,8 +54,8 @@
 			)
 			(symbol "Adafruit_ESP32-S3_Feather_0_1"
 				(rectangle
-					(start -17.78 31.75)
-					(end 17.78 -33.02)
+					(start -17.78 30.48)
+					(end 19.05 -34.29)
 					(stroke
 						(width 0)
 						(type default)
@@ -67,7 +67,7 @@
 			)
 			(symbol "Adafruit_ESP32-S3_Feather_1_1"
 				(pin bidirectional line
-					(at -17.78 27.94 0)
+					(at -17.78 26.67 0)
 					(length 2.54)
 					(name "Reset"
 						(effects
@@ -85,7 +85,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -6.35 0)
+					(at -17.78 -7.62 0)
 					(length 2.54)
 					(name "A5"
 						(effects
@@ -103,7 +103,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -10.16 0)
+					(at -17.78 -11.43 0)
 					(length 2.54)
 					(name "SCK"
 						(effects
@@ -121,7 +121,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -13.97 0)
+					(at -17.78 -15.24 0)
 					(length 2.54)
 					(name "MOSI"
 						(effects
@@ -139,7 +139,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -17.78 0)
+					(at -17.78 -19.05 0)
 					(length 2.54)
 					(name "MISO"
 						(effects
@@ -157,7 +157,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -21.59 0)
+					(at -17.78 -22.86 0)
 					(length 2.54)
 					(name "RX"
 						(effects
@@ -175,7 +175,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -25.4 0)
+					(at -17.78 -26.67 0)
 					(length 2.54)
 					(name "TX"
 						(effects
@@ -193,7 +193,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -29.21 0)
+					(at -17.78 -30.48 0)
 					(length 2.54)
 					(name "TXD0"
 						(effects
@@ -211,7 +211,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at 19.05 11.43 180)
 					(length 2.54)
 					(name "VBAT"
 						(effects
@@ -229,7 +229,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 8.89 180)
+					(at 19.05 7.62 180)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -247,7 +247,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 19.05 3.81 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -265,7 +265,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 24.13 0)
+					(at -17.78 22.86 0)
 					(length 2.54)
 					(name "3V3"
 						(effects
@@ -283,7 +283,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 1.27 180)
+					(at 19.05 0 180)
 					(length 2.54)
 					(name "D13"
 						(effects
@@ -301,7 +301,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 19.05 -3.81 180)
 					(length 2.54)
 					(name "D12"
 						(effects
@@ -319,7 +319,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -6.35 180)
+					(at 19.05 -7.62 180)
 					(length 2.54)
 					(name "D11"
 						(effects
@@ -337,7 +337,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 19.05 -11.43 180)
 					(length 2.54)
 					(name "D10"
 						(effects
@@ -355,7 +355,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -13.97 180)
+					(at 19.05 -15.24 180)
 					(length 2.54)
 					(name "D9"
 						(effects
@@ -373,7 +373,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -17.78 180)
+					(at 19.05 -19.05 180)
 					(length 2.54)
 					(name "D6"
 						(effects
@@ -391,7 +391,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -21.59 180)
+					(at 19.05 -22.86 180)
 					(length 2.54)
 					(name "D5"
 						(effects
@@ -409,7 +409,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -25.4 180)
+					(at 19.05 -26.67 180)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -427,7 +427,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -29.21 180)
+					(at 19.05 -30.48 180)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -445,7 +445,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 20.32 0)
+					(at -17.78 19.05 0)
 					(length 2.54)
 					(name "3V3"
 						(effects
@@ -463,7 +463,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 16.51 0)
+					(at -17.78 15.24 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -481,7 +481,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 12.7 0)
+					(at -17.78 11.43 0)
 					(length 2.54)
 					(name "A0"
 						(effects
@@ -499,7 +499,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 8.89 0)
+					(at -17.78 7.62 0)
 					(length 2.54)
 					(name "A1"
 						(effects
@@ -517,7 +517,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 5.08 0)
+					(at -17.78 3.81 0)
 					(length 2.54)
 					(name "A2"
 						(effects
@@ -535,7 +535,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 1.27 0)
+					(at -17.78 0 0)
 					(length 2.54)
 					(name "A3"
 						(effects
@@ -553,7 +553,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -2.54 0)
+					(at -17.78 -3.81 0)
 					(length 2.54)
 					(name "A4"
 						(effects
@@ -847,6 +847,10 @@
 		(uuid "ef5c2012-4977-4544-93f1-d6135418aa95")
 	)
 	(no_connect
+		(at 222.25 82.55)
+		(uuid "5d3b694c-c2de-49aa-88a8-bcc7580995b3")
+	)
+	(no_connect
 		(at 222.25 86.36)
 		(uuid "8f6a59e1-da7f-4408-b27b-fe93b5ac0c74")
 	)
@@ -860,6 +864,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 113.03) (xy 222.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0478cec6-22d9-4f60-bb28-d5defdb241de")
+	)
+	(wire
+		(pts
 			(xy 110.49 78.74) (xy 125.73 78.74)
 		)
 		(stroke
@@ -867,6 +881,16 @@
 			(type default)
 		)
 		(uuid "0899d371-256e-4988-95bc-eb22956123c7")
+	)
+	(wire
+		(pts
+			(xy 177.8 97.79) (xy 222.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c46c94-e372-4348-b9cf-fe4cc448f209")
 	)
 	(wire
 		(pts
@@ -887,6 +911,16 @@
 			(type default)
 		)
 		(uuid "14c3c2a3-c6c8-43ce-8b82-8cba47579847")
+	)
+	(wire
+		(pts
+			(xy 177.8 120.65) (xy 222.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d113c4f-cb4b-49cd-ba1c-9790f1a8fff4")
 	)
 	(wire
 		(pts
@@ -920,16 +954,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34700042-7707-4d08-a49e-71068fa71b51")
-	)
-	(wire
-		(pts
 			(xy 95.25 67.31) (xy 140.97 67.31)
 		)
 		(stroke
@@ -957,6 +981,26 @@
 			(type default)
 		)
 		(uuid "4c4a2b12-7191-487f-8a9e-244c2afcae40")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 222.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5244c760-b27b-4cd5-923b-8c3e7ba41fce")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 222.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533629d7-3823-4cb5-83e2-7df5cae87dbb")
 	)
 	(wire
 		(pts
@@ -1010,16 +1054,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 222.25 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb6c0cb-8a42-4fd9-a2bf-299664833487")
-	)
-	(wire
-		(pts
 			(xy 118.11 71.12) (xy 118.11 74.93)
 		)
 		(stroke
@@ -1027,6 +1061,16 @@
 			(type default)
 		)
 		(uuid "8a68d3dd-93bd-4af1-9afd-1732c45b8033")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90010848-9e53-40b1-aa82-bf5264abca92")
 	)
 	(wire
 		(pts
@@ -1050,13 +1094,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 222.25 105.41)
+			(xy 177.8 109.22) (xy 222.25 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92df473e-3b3e-4cfd-9c54-a0cdb32865ea")
+		(uuid "9667b3cb-be64-4e0a-b27f-71baec2ead33")
 	)
 	(wire
 		(pts
@@ -1080,16 +1124,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 222.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac2a7fd-9114-46a9-95ef-8556341f14ba")
-	)
-	(wire
-		(pts
 			(xy 95.25 101.6) (xy 140.97 101.6)
 		)
 		(stroke
@@ -1110,23 +1144,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 109.22) (xy 222.25 109.22)
+			(xy 177.8 105.41) (xy 222.25 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab478b6e-1181-4c98-bc5c-28e67e40427c")
+		(uuid "a6ef777f-5f32-4ff3-8f71-a307658ac81a")
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 222.25 93.98)
+			(xy 177.8 124.46) (xy 222.25 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b08f1916-7147-40f5-8315-03648e9aa5cc")
+		(uuid "b49a1818-124b-4426-95cd-0a9941e23350")
 	)
 	(wire
 		(pts
@@ -1150,16 +1184,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 222.25 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8915ac6-4ba2-4fd5-8428-acea0ed16721")
-	)
-	(wire
-		(pts
 			(xy 125.73 78.74) (xy 140.97 78.74)
 		)
 		(stroke
@@ -1177,36 +1201,6 @@
 			(type default)
 		)
 		(uuid "c446fd1c-5174-45e0-9402-79107ea0ec7a")
-	)
-	(wire
-		(pts
-			(xy 176.53 86.36) (xy 222.25 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a8056a-045a-483a-9f02-50a3235293fa")
-	)
-	(wire
-		(pts
-			(xy 176.53 120.65) (xy 222.25 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4efefb5-caef-4126-a879-4834cbd6ff41")
-	)
-	(wire
-		(pts
-			(xy 176.53 116.84) (xy 222.25 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7773f6b-0f74-4c00-9728-a603bead910e")
 	)
 	(wire
 		(pts
@@ -1230,13 +1224,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 113.03) (xy 222.25 113.03)
+			(xy 177.8 90.17) (xy 222.25 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d427b46b-8cc7-4865-b566-8db2a73e34cc")
+		(uuid "ce62a88d-db58-438f-be00-4c234bb1bd59")
 	)
 	(wire
 		(pts
@@ -1250,6 +1244,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 93.98) (xy 222.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0381426-d89a-4b5a-921a-e4b300a8528a")
+	)
+	(wire
+		(pts
 			(xy 95.25 120.65) (xy 140.97 120.65)
 		)
 		(stroke
@@ -1257,6 +1261,16 @@
 			(type default)
 		)
 		(uuid "e178f898-3b80-474c-8cc6-be2d8ef6d896")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 222.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3198c30-db94-4f76-9d20-b9a5b04cc915")
 	)
 	(wire
 		(pts
@@ -1277,16 +1291,6 @@
 			(type default)
 		)
 		(uuid "ef41abb5-1d30-43b5-ab1f-33411f8ae8d1")
-	)
-	(wire
-		(pts
-			(xy 176.53 124.46) (xy 222.25 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6cd0731-c965-41b1-82cc-e06491c913fa")
 	)
 	(hierarchical_label "Display-Enable"
 		(shape bidirectional)
@@ -1371,18 +1375,6 @@
 			(justify right)
 		)
 		(uuid "2c1706d4-8e2a-4bd9-a5ac-e04f58338057")
-	)
-	(hierarchical_label "VBAT"
-		(shape bidirectional)
-		(at 222.25 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35164516-d3c3-4954-b815-2bbcaa3bf454")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -1578,7 +1570,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit ESP32-S3 Feather 4MB Flash 2MB PSRAM:Adafruit_ESP32-S3_Feather")
-		(at 158.75 95.25 0)
+		(at 158.75 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1587,7 +1579,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c22ed21-db12-49c5-8e9c-020f17e29033")
 		(property "Reference" "U1"
-			(at 158.75 60.706 0)
+			(at 158.75 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1587,7 @@
 			)
 		)
 		(property "Value" "Adafruit ESP32-S3 Feather"
-			(at 158.75 62.484 0)
+			(at 158.75 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,7 +1595,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:Adafruit ESP32-S3 Feather 4MB Flash 2MB PSRAM"
-			(at 158.75 129.54 0)
+			(at 158.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1612,7 +1604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 101.6 0)
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1621,7 +1613,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 101.6 0)
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,8 +1723,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9acb6a0-daf8-4947-b6fa-ad3d8bd2398b")
-		(property "Reference" "C2"
-			(at 112.776 51.054 0)
+		(property "Reference" "C1_2"
+			(at 111.76 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1733,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.506 52.832 0)
+			(at 111.252 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1857,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
-					(reference "C2")
+					(reference "C1_2")
 					(unit 1)
 				)
 			)
@@ -1880,8 +1872,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb579d92-b2ae-4064-80c9-6d504607dfd5")
-		(property "Reference" "C1"
-			(at 128.016 51.054 0)
+		(property "Reference" "C1_1"
+			(at 127.254 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2006,7 @@
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2e3e5636-c492-45ef-bece-a2815296f467"
-					(reference "C1")
+					(reference "C1_1")
 					(unit 1)
 				)
 			)

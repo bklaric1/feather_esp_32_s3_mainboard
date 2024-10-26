@@ -468,8 +468,8 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "../../../Downloads/feather_daughterboard.dsn",
-      "step": "",
-      "svg": "",
+      "step": "../../../Downloads/feather_daughterboard.step",
+      "svg": "../../../Downloads/",
       "vrml": ""
     },
     "page_layout_descr_file": ""

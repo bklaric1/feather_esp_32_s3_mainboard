@@ -5,154 +5,39 @@
 	(uuid "57888cd9-bac5-4897-9c13-4c09cfb2d11a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers hide)
+		(symbol "6130XX11121_61300211121:6130XX11121_61300211121"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "J"
+				(at -5.08 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
+			(property "Value" "61300211121"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Footprint" "Custom footprints:61300211121"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Projektarbeit_button:430182050816"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S5"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-				)
-			)
-			(property "Value" "430182050816"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Custom footprints:430182050816"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -165,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -174,213 +59,228 @@
 					(hide yes)
 				)
 			)
-			(symbol "430182050816_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -2.54 -2.54)
+			(property "ROWS" "Single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "GENDER" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MOUNT" "THT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "IR" "3A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGING" "Bag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PINS" "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61300211121?ae"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PITCH" "2.54mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PART-NUMBER" "61300211121"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TYPE" "Straight"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "6130XX11121_61300211121_0_0"
+				(rectangle
+					(start -3.81 0)
+					(end 1.27 -2.54)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.635)
-					)
+				(circle
+					(center -2.54 -1.27)
+					(radius 0.254)
 					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.47 2.74) (xy 1.04 -0.07)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 0 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.635)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(circle
-					(center 0 0)
-					(radius 0.508)
+					(center 0 -1.27)
+					(radius 0.254)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0.635)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 2.54)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
 					(stroke
 						(width 0.254)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -2.54 -5.08 90)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "2"
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0"
+		(symbol "WCAP-CSGP_0603:WCAP-CSGP_0603"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C10"
-				(at -0.254 -4.826 0)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify bottom)
 				)
 			)
-			(property "Value" "100nF"
-				(at -1.778 -3.048 0)
+			(property "Value" "WCAP-CSGP_0603"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify bottom)
 				)
 			)
-			(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
+			(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -407,7 +307,87 @@
 					(hide yes)
 				)
 			)
-			(symbol "WCAP-CSGP_1210_H2.0_0_0"
+			(property "MF" "Würth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Wurth Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "885012206020"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WCAP-CSGP_0603_0_0"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0.6426 0)
@@ -494,18 +474,199 @@
 				)
 			)
 		)
+		(symbol "WRIS-RSKS_0603:WRIS-RSKS_0603"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WRIS-RSKS_0603"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WRIS-RSKS_0603_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 125.73 101.6)
+		(at 120.65 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09632840-b8d0-44a9-9522-9a70801254d4")
-	)
-	(junction
-		(at 138.43 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "335ffc4c-8e23-4193-b85d-6b5b64d56b8d")
+		(uuid "02d69850-ffde-4947-a113-e27f24e43040")
 	)
 	(junction
 		(at 138.43 114.3)
@@ -521,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 109.22) (xy 138.43 114.3)
+			(xy 138.43 107.95) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -531,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 101.6) (xy 142.24 101.6)
+			(xy 138.43 105.41) (xy 142.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -541,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 125.73 104.14)
+			(xy 120.65 101.6) (xy 120.65 104.14)
 		)
 		(stroke
 			(width 0)
@@ -561,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 125.73 114.3)
+			(xy 120.65 111.76) (xy 120.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -571,27 +732,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 152.4 114.3)
+			(xy 121.92 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ecaebc6-a6b0-4171-8f3a-7f48f918a118")
+		(uuid "50e8a672-e788-4a87-a592-b95dd8cd7a5b")
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 152.4 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d193c48-575b-4e1a-a9b9-ff6c6567395c")
-	)
-	(wire
-		(pts
-			(xy 138.43 95.25) (xy 138.43 96.52)
+			(xy 138.43 95.25) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -601,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 138.43 101.6)
+			(xy 137.16 101.6) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -611,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 82.55) (xy 138.43 87.63)
+			(xy 138.43 74.93) (xy 138.43 80.01)
 		)
 		(stroke
 			(width 0)
@@ -621,17 +772,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 152.4 96.52)
+			(xy 138.43 105.41) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab407f06-7fe5-459b-9ee8-2d2c93592d2f")
+		(uuid "c67c851b-7759-4599-b8ef-9bd1262bf26b")
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 125.73 101.6)
+			(xy 110.49 101.6) (xy 120.65 101.6)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 109.22) (xy 142.24 109.22)
+			(xy 138.43 107.95) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 114.3) (xy 138.43 114.3)
+			(xy 120.65 114.3) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -659,51 +810,9 @@
 		)
 		(uuid "f12cf59a-fa44-42d9-bf31-5e94c916bb29")
 	)
-	(wire
-		(pts
-			(xy 138.43 96.52) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7b1195b-dbc2-4144-9ef0-f6b2a06a965e")
-	)
-	(wire
-		(pts
-			(xy 138.43 114.3) (xy 152.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad35d0a-4bdd-4d58-83fb-09726c46049e")
-	)
-	(wire
-		(pts
-			(xy 125.73 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbdb4fe-7bb4-46c0-aeb7-c7e644246339")
-	)
-	(text "?"
-		(exclude_from_sim no)
-		(at 167.64 104.14 0)
-		(effects
-			(font
-				(size 25 25)
-				(thickness 5)
-				(bold yes)
-			)
-		)
-		(uuid "5bd50512-196a-468f-8b9e-3c8d3af3b0bd")
-	)
 	(global_label "VCC"
 		(shape bidirectional)
-		(at 138.43 82.55 90)
+		(at 138.43 74.93 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -713,7 +822,7 @@
 		)
 		(uuid "a0aa27a9-b18a-4bb3-9c35-8c3b09cc91fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 74.8249 90)
+			(at 138.43 67.2049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +856,7 @@
 	)
 	(hierarchical_label "RST"
 		(shape bidirectional)
-		(at 115.57 101.6 180)
+		(at 110.49 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -758,16 +867,16 @@
 		(uuid "710b4994-7aa4-4743-921d-4c59a7f47725")
 	)
 	(symbol
-		(lib_id "WCAP-CSGP_1210_H2.0:WCAP-CSGP_1210_H2.0")
-		(at 125.73 106.68 270)
+		(lib_id "WCAP-CSGP_0603:WCAP-CSGP_0603")
+		(at 120.65 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8222070b-5a69-4aa4-a68b-bb9e317d1599")
-		(property "Reference" "C10"
-			(at 120.904 106.426 0)
+		(uuid "18060138-1445-41f0-a503-1e50fd48380f")
+		(property "Reference" "C1_3"
+			(at 113.03 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +885,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 122.682 104.902 0)
+			(at 112.522 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,8 +893,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom footprints:WCAP-CSGP_1210_H2.0"
-			(at 125.73 106.68 0)
+		(property "Footprint" "Custom footprints:WCAP-CSGP_0603_R"
+			(at 120.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 106.68 0)
+			(at 120.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +912,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 106.68 0)
+			(at 120.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -811,48 +920,141 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Würth Elektronik"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\nCapacitor 100nF Multilayer Ceramic MLCC10 V , X7R Dielectric 0603 Surface Mount | Wurth Electronics 885012206020\n"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Wurth Electronics"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=snap"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "885012206020"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/885012206020/Wurth+Elektronik/view-part/?ref=eda"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "ec32e162-526c-4fac-8548-5fdc28d1e7e8")
+			(uuid "4b9d44c4-84de-47d0-8e3e-1f918590499b")
 		)
 		(pin "2"
-			(uuid "e7599302-cf1b-4828-8b43-888ff0e6bf99")
+			(uuid "8e22e13f-7d8f-455f-bf52-9ad16f654aa0")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
-					(reference "C10")
+					(reference "C1_3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 132.08 101.6 90)
+		(lib_id "6130XX11121_61300211121:6130XX11121_61300211121")
+		(at 147.32 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c85601c7-bb64-4eed-9bee-590faa8201da")
-		(property "Reference" "R10"
-			(at 132.08 103.886 90)
+		(uuid "2d4ba5ce-3806-4ff6-8fc7-4118151aa563")
+		(property "Reference" "J3"
+			(at 144.78 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "75kΩ"
-			(at 132.08 105.664 90)
+		(property "Value" "61300211121"
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.08 103.378 90)
+		(property "Footprint" "Custom footprints:61300211121"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,8 +1062,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 101.6 0)
+		(property "Description" ""
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,58 +1071,150 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 132.08 101.6 0)
+		(property "ROWS" "Single"
+			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6876130f-7ac1-4430-b6b9-c37ffc854d57")
+		(property "GENDER" "Pin Header"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "THT"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "IR" "3A"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" "Bag"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" "2"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61300211121?ae"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "2.54mm"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART-NUMBER" "61300211121"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "Straight"
+			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3e99ddd3-6c93-4251-87f9-a895d7ec2f30")
+			(uuid "32d86f62-3761-4b4b-95bd-1a888cc29470")
+		)
+		(pin "2"
+			(uuid "807adc6b-17fe-4c6a-842d-f92224b29217")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
-					(reference "R10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Projektarbeit_button:430182050816")
-		(at 147.32 106.68 0)
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 138.43 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de307fa4-8b3f-4b9b-9352-e6d6ac503e78")
-		(property "Reference" "S5"
-			(at 147.32 100.33 0)
+		(uuid "b2435332-964b-49a2-9955-d07dcd3360fa")
+		(property "Reference" "R1_5"
+			(at 139.954 86.868 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "430182050816"
-			(at 147.32 100.33 0)
+		(property "Value" "10kΩ"
+			(at 139.954 88.646 90)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Custom footprints:430182050816"
-			(at 147.32 106.68 0)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +1223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 106.68 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,72 +1231,59 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "WS-TASV SMT Tact Switch 6x6 mm  Material Properties Cover Material : Stainless Steel  Properties Actuator Material:LCP Actuator Flammability :UL94 V-0 Rating Actuator Color:Black; Salmon; White Frame Material:LCP Flammability Rating:UL94 V-0 Frame Color:Black Contact Material:Stainless Steel Contact Plating:Silver Terminal Material:Copper Alloy Terminal Plating:Silver VR:12 V (DC) Contact Resistance Initial:100 mΩ Contact Resistance After Life Test:2Ω RISO:100 MΩ Withstanding Voltage:250 V (AC) Washable:No Qty.:4000;5000   Mechanical Properties Electrical Life:400; 550; 1000 Stroke :0.25 mm General Information\n\nOperating Temperature:-40 up to +85 °C Washable:No Packaging Properties\nPackaging:Tape and Reel\n\nhttps://www.we-online.com/catalog/media/o37470v209%20Family_WS-TASV_6x6mm_SMD_Tact_Switch_4301820xx8xx.jpg\n\nDetails see: https://www.we-online.com/catalog/en/TASV_6X6_SMD/ https://www.we-online.com/catalog/en/TASV_6X6_SMD/\n\nUpdated by yingchun,Shan;2020-02-18\n2020(C) Würth Elektronik"
-			(at 147.32 106.68 0)
+		(property "Description" ""
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "c38a0ccc-78ea-4208-9ed6-d3360a412f4a")
-		)
-		(pin "4"
-			(uuid "cf8a2467-5323-48f0-b294-eac5f123102d")
 		)
 		(pin "2"
-			(uuid "de2b3872-4698-44d6-8b14-6498714e5ea8")
+			(uuid "4377233c-1034-45ea-875d-3823aa82857d")
 		)
 		(pin "1"
-			(uuid "f658723b-aa2c-476f-bdbe-d6c60a03cde5")
+			(uuid "70190aeb-4609-40d7-9c5d-c27c0d7a5f7d")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
-					(reference "S5")
+					(reference "R1_5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 138.43 91.44 0)
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 129.54 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f74228d6-70d2-4263-a533-e96d212f0f4d")
-		(property "Reference" "R11"
-			(at 134.874 91.44 90)
+		(uuid "fbb528eb-1370-4a5e-bf10-3c0ad892e96a")
+		(property "Reference" "R3_1"
+			(at 132.08 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 136.398 91.44 90)
+		(property "Value" "75kΩ"
+			(at 132.08 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 136.652 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 91.44 0)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,8 +1291,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 138.43 91.44 0)
+		(property "Datasheet" ""
+			(at 129.54 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,15 +1310,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a6935c6e-a955-440d-85fb-9169b8cb5b13")
+			(uuid "fc29d007-c218-4e92-bf19-8bfdffdf2a03")
 		)
 		(pin "1"
-			(uuid "b23e12ef-5c2c-413d-9aa7-8e99d440035f")
+			(uuid "58e37d05-5024-4e7c-8e92-c9b21e54386e")
 		)
 		(instances
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
-					(reference "R11")
+					(reference "R3_1")
 					(unit 1)
 				)
 			)

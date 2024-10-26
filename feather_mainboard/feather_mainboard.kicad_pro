@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../Downloads/feather_mainboard.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
@@ -584,11 +584,173 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET-URL",
+          "name": "DATASHEET-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GENDER",
+          "name": "GENDER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GERDER",
+          "name": "GERDER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR",
+          "name": "IR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNT",
+          "name": "MOUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATION-FORCE",
+          "name": "OPERATION-FORCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART-NUMBER",
+          "name": "PART-NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH",
+          "name": "PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROWS",
+          "name": "ROWS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SCHEMATIC",
+          "name": "SCHEMATIC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TYPE",
+          "name": "TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VALUE",
+          "name": "VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VR",
+          "name": "VR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WORKING-VOLTAGE",
+          "name": "WORKING-VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -637,8 +799,8 @@
       "Root"
     ],
     [
-      "a867e0b4-aaaa-4d5d-aab5-187e8be84092",
-      "Display-Ports"
+      "2e3e5636-c492-45ef-bece-a2815296f467",
+      "Microcontroller"
     ],
     [
       "e2a4e638-a577-4462-b00f-f16be15249be",
@@ -653,27 +815,23 @@
       "Boost-Converter"
     ],
     [
-      "0612ee74-9d90-4326-b91d-9e799538803a",
-      "Battery-Connector"
+      "a867e0b4-aaaa-4d5d-aab5-187e8be84092",
+      "Display-Ports"
     ],
     [
       "2182aea7-eb34-437a-b655-8b840f0aafa8",
       "Buttons-Connector"
     ],
     [
-      "2e3e5636-c492-45ef-bece-a2815296f467",
-      "Microcontroller"
+      "0d3ffa4d-b734-4a21-ae0e-364ca9762bbd",
+      "Reset-Button"
     ],
     [
       "6bb461df-e058-49ab-990d-543fb2df67dd",
       "MicroSD-Card Adapter"
     ],
     [
-      "0d3ffa4d-b734-4a21-ae0e-364ca9762bbd",
-      "Reset-Button"
-    ],
-    [
-      "9211cf2c-296b-49a8-984c-d8eee48b72b3",
+      "ff9ad5fa-00ba-4ea3-956b-8f18c92a633c",
       "IIC"
     ]
   ],
