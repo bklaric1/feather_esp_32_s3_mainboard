@@ -447,13 +447,13 @@
 		(at 144.78 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cd1e19f-3ee8-4afd-b0d7-aba8e6c3a320")
+		(uuid "01b6d872-2221-4127-a9f8-0bcb890788ac")
 	)
 	(junction
 		(at 154.94 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e789a496-bfc9-4f23-bedd-f8dec37f26ba")
+		(uuid "8052f82f-e529-4c7b-b21e-61e27a8ae8d5")
 	)
 	(junction
 		(at 149.86 87.63)
@@ -473,6 +473,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 116.84) (xy 140.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e4c5d3-c302-45c9-b9e8-803aeb03426e")
+	)
+	(wire
+		(pts
 			(xy 149.86 87.63) (xy 149.86 85.09)
 		)
 		(stroke
@@ -483,13 +493,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 154.94 111.76)
+			(xy 120.65 116.84) (xy 125.73 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53afc07b-4fb5-4c32-b1f2-673fe4e470d9")
+		(uuid "22618606-c995-48d7-995b-d908ac3213ed")
+	)
+	(wire
+		(pts
+			(xy 120.65 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a6db7f-96a7-496e-838b-da39dadd32f5")
 	)
 	(wire
 		(pts
@@ -500,6 +520,26 @@
 			(type default)
 		)
 		(uuid "562a4726-1e7b-4109-95dc-8fcb29a0cec0")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa698f3-0efd-4bec-8989-03a7d2cef182")
+	)
+	(wire
+		(pts
+			(xy 144.78 111.76) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d699b5-ecc4-4ecd-af29-a6b78e07575b")
 	)
 	(wire
 		(pts
@@ -523,26 +563,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 111.76) (xy 154.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd925f1-8367-4a1c-96be-128b13781aa7")
-	)
-	(wire
-		(pts
-			(xy 138.43 109.22) (xy 144.78 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b172399-bc69-4ad7-a842-9d3cbc1afc8a")
-	)
-	(wire
-		(pts
 			(xy 144.78 105.41) (xy 144.78 109.22)
 		)
 		(stroke
@@ -550,6 +570,16 @@
 			(type default)
 		)
 		(uuid "9b689811-d781-4565-9e58-c11ebfd770a3")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e15e37-a8b9-413e-b3cf-0f9861985ea3")
 	)
 	(wire
 		(pts
@@ -570,6 +600,16 @@
 			(type default)
 		)
 		(uuid "d45880e1-4876-485d-b0d1-8976457f3767")
+	)
+	(wire
+		(pts
+			(xy 144.78 111.76) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f56ca8-5df1-4009-b7ec-9a6261ead45f")
 	)
 	(global_label "VCC"
 		(shape bidirectional)
@@ -595,7 +635,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 138.43 111.76 180)
+		(at 120.65 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -607,7 +647,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 138.43 109.22 180)
+		(at 120.65 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -790,6 +830,73 @@
 	)
 	(symbol
 		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 133.35 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f08d8b3-17e6-4763-929b-65a1a5e8d0b8")
+		(property "Reference" "R4_1"
+			(at 133.35 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 133.35 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b85d9f6f-2c2e-4a04-9cff-50c92096d2a1")
+		)
+		(pin "2"
+			(uuid "9e6b522e-a197-4ccc-93be-466f04a3dce5")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/ff9ad5fa-00ba-4ea3-956b-8f18c92a633c"
+					(reference "R4_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
 		(at 154.94 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -921,6 +1028,73 @@
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/ff9ad5fa-00ba-4ea3-956b-8f18c92a633c"
 					(reference "R1_3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WRIS-RSKS_0603:WRIS-RSKS_0603")
+		(at 133.35 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc027522-3945-4ea4-8c5f-cb1e5fe94026")
+		(property "Reference" "R4_2"
+			(at 133.35 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33Ω"
+			(at 133.35 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom footprints:WRIS-RSKS_0603_REFLOW"
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52010f34-da11-4e95-a5f1-cf19560c1321")
+		)
+		(pin "2"
+			(uuid "92d4838f-81e0-47f1-9ab3-368e3a754684")
+		)
+		(instances
+			(project "feather_mainboard"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/ff9ad5fa-00ba-4ea3-956b-8f18c92a633c"
+					(reference "R4_2")
 					(unit 1)
 				)
 			)

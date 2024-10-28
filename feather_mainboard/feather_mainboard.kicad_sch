@@ -264,6 +264,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 130.81) (xy 45.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3d8a93-8147-46a6-869b-32bcf689935f")
+	)
+	(wire
+		(pts
 			(xy 49.53 71.12) (xy 53.34 71.12)
 		)
 		(stroke
@@ -411,6 +421,16 @@
 			(type default)
 		)
 		(uuid "9aaaadf2-4529-4e48-ba55-e94003688628")
+	)
+	(wire
+		(pts
+			(xy 53.34 134.62) (xy 45.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de636e3-7c6d-439b-a470-b767fa052f76")
 	)
 	(wire
 		(pts
@@ -563,9 +583,9 @@
 		)
 		(uuid "91ddfbcc-78e3-4774-bd99-86335c2e55ad")
 	)
-	(text "R1_x -> 10 kΩ\nR2_x -> 180 Ω \nR3_x -> 75 kΩ"
+	(text "R1_x -> 10 kΩ\nR2_x -> 180 Ω \nR3_x -> 75 kΩ\nR4_x -> 33 Ω"
 		(exclude_from_sim no)
-		(at 139.192 184.912 0)
+		(at 139.192 187.706 0)
 		(effects
 			(font
 				(size 3 3)
@@ -573,6 +593,28 @@
 			(justify left)
 		)
 		(uuid "b71c0c24-7af5-4178-8c9b-3be406a1847a")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 53.34 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21939bf1-4808-43d5-9b96-d4371489060f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.307 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GND"
 		(shape bidirectional)
@@ -592,6 +634,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape bidirectional)
+		(at 53.34 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "522aca24-07a4-4ba8-be3d-c77d49a7a487")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.0651 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1071,8 +1135,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 111.76)
-		(size 19.05 19.05)
+		(at 26.67 113.03)
+		(size 19.05 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1083,7 +1147,7 @@
 		)
 		(uuid "2182aea7-eb34-437a-b655-8b840f0aafa8")
 		(property "Sheetname" "Buttons-Connector"
-			(at 26.67 111.0484 0)
+			(at 26.67 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1156,7 @@
 			)
 		)
 		(property "Sheetfile" "buttons-connector.kicad_sch"
-			(at 26.67 131.3946 0)
+			(at 26.67 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,6 +1204,26 @@
 				(justify right)
 			)
 			(uuid "1942f872-98ca-4e5c-a20e-826aee1ea95a")
+		)
+		(pin "VCC" bidirectional
+			(at 45.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7758eaa2-8f8d-477c-9d19-952c708bc157")
+		)
+		(pin "GND" bidirectional
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33927696-9381-4fa6-8e83-c14a7775ff07")
 		)
 		(instances
 			(project "feather_mainboard"

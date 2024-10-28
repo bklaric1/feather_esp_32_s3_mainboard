@@ -389,7 +389,7 @@
 				(hide yes)
 			)
 		)
-		(pin "Button_2" input
+		(pin "Button_2" bidirectional
 			(at 165.1 88.9 180)
 			(effects
 				(font
@@ -399,7 +399,7 @@
 			)
 			(uuid "86aad992-0142-45a6-ba0c-82449e4e5ac3")
 		)
-		(pin "Button_1" input
+		(pin "Button_1" bidirectional
 			(at 165.1 85.09 180)
 			(effects
 				(font
@@ -409,7 +409,7 @@
 			)
 			(uuid "403b0835-ef57-4626-b363-121f0acf8923")
 		)
-		(pin "Button_4" input
+		(pin "Button_4" bidirectional
 			(at 165.1 96.52 180)
 			(effects
 				(font
@@ -429,7 +429,7 @@
 			)
 			(uuid "71181cf7-5d6f-4013-a677-ad59dd55a8be")
 		)
-		(pin "Button_3" input
+		(pin "Button_3" bidirectional
 			(at 165.1 92.71 180)
 			(effects
 				(font
@@ -488,7 +488,7 @@
 				(hide yes)
 			)
 		)
-		(pin "Button_1" output
+		(pin "Button_1" bidirectional
 			(at 139.7 85.09 0)
 			(effects
 				(font
@@ -498,7 +498,7 @@
 			)
 			(uuid "7bc1dca8-8f4b-458c-accf-1ac6c253f00f")
 		)
-		(pin "VCC" output
+		(pin "VCC" bidirectional
 			(at 139.7 100.33 0)
 			(effects
 				(font
@@ -508,7 +508,7 @@
 			)
 			(uuid "1f0c0346-3237-49ed-9a30-4fb28f42bffa")
 		)
-		(pin "Button_2" output
+		(pin "Button_2" bidirectional
 			(at 139.7 88.9 0)
 			(effects
 				(font
@@ -518,7 +518,7 @@
 			)
 			(uuid "f37b4538-68c4-48b3-a515-89c1a1575fa5")
 		)
-		(pin "Button_3" output
+		(pin "Button_3" bidirectional
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -528,7 +528,7 @@
 			)
 			(uuid "5f2dbef9-7739-4ed0-af82-d3d800c29d90")
 		)
-		(pin "Button_4" output
+		(pin "Button_4" bidirectional
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -538,7 +538,7 @@
 			)
 			(uuid "9eb0e9cc-a705-4e65-933d-44659b6a5e79")
 		)
-		(pin "GND" output
+		(pin "GND" bidirectional
 			(at 139.7 104.14 0)
 			(effects
 				(font

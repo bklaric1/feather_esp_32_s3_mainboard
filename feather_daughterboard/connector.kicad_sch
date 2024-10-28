@@ -5,33 +5,31 @@
 	(uuid "bef0c5af-1606-4e6e-9752-fac53ce114b6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "61900619521:61900619521"
+		(symbol "6250XX21721_62501021721:6250XX21721_62501021721"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -7.1 -0.955 0)
+			(property "Reference" "J2"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
 				)
 			)
-			(property "Value" "61900619521"
-				(at 0 0 0)
+			(property "Value" "6250XX21721_62501021721"
+				(at 10.16 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Custom footprints:61900619521"
+			(property "Footprint" "Custom footprints:62501021721"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            EMI Gaskets, Sheets, Absorbers & Shielding\n                        \n"
+			(property "Description_1" "\n                        \n                            CONN, R/A HEADER, 10POS, 2ROW, 2MM ROHS COMPLIANT: YES\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -119,7 +117,7 @@
 					(hide yes)
 				)
 			)
-			(property "PITCH" "2.54mm"
+			(property "IR" "2A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -129,7 +127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/61900619521/Wurth+Elektronik/view-part/?ref=eda"
+			(property "VALUE" "62501021721"
 				(at 0 0 0)
 				(effects
 					(font
@@ -139,7 +137,7 @@
 					(hide yes)
 				)
 			)
-			(property "L" "15.24mm"
+			(property "Availability" "In Stock"
 				(at 0 0 0)
 				(effects
 					(font
@@ -149,7 +147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
+			(property "PACKAGING" "Tray"
 				(at 0 0 0)
 				(effects
 					(font
@@ -159,7 +157,7 @@
 					(hide yes)
 				)
 			)
-			(property "PACKAGING" "Bag"
+			(property "PART-NUMBER" "62501021721"
 				(at 0 0 0)
 				(effects
 					(font
@@ -169,7 +167,7 @@
 					(hide yes)
 				)
 			)
-			(property "PART-NUMBER" "61900619521"
+			(property "LENGTH" "17.25mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -179,7 +177,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/61900619521/Wurth+Elektronik/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/62501021721/Wurth+Elektronik/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -189,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61900619521?ae"
+			(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/62501021721?ae"
 				(at 0 0 0)
 				(effects
 					(font
@@ -199,7 +197,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "61900619521"
+			(property "MP" "62501021721"
 				(at 0 0 0)
 				(effects
 					(font
@@ -219,7 +217,7 @@
 					(hide yes)
 				)
 			)
-			(property "PINS" "6"
+			(property "PINS" "10"
 				(at 0 0 0)
 				(effects
 					(font
@@ -229,7 +227,7 @@
 					(hide yes)
 				)
 			)
-			(property "TYPE" "Right Angled Top Locking"
+			(property "PITCH" "2mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -239,7 +237,7 @@
 					(hide yes)
 				)
 			)
-			(property "PCB-CABLE-PANEL" "PCB"
+			(property "TYPE" "Angled"
 				(at 0 0 0)
 				(effects
 					(font
@@ -249,7 +247,7 @@
 					(hide yes)
 				)
 			)
-			(property "Availability" "Not in stock"
+			(property "Price" "None"
 				(at 0 0 0)
 				(effects
 					(font
@@ -259,10 +257,20 @@
 					(hide yes)
 				)
 			)
-			(symbol "61900619521_0_0"
+			(property "Check_prices" "https://www.snapeda.com/parts/62501021721/Wurth+Elektronik/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "6250XX21721_62501021721_0_0"
 				(rectangle
-					(start -6.35 -2.54)
-					(end 8.89 0)
+					(start -7.62 -2.54)
+					(end 7.62 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -283,7 +291,29 @@
 					)
 				)
 				(circle
+					(center -5.08 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center -2.54 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.27)
 					(radius 0.254)
 					(stroke
 						(width 0.635)
@@ -318,7 +348,31 @@
 				)
 				(polyline
 					(pts
+						(xy -5.08 1.27) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -342,7 +396,31 @@
 				)
 				(polyline
 					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 -1.27) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -366,7 +444,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -1.27) (xy 7.62 -2.54)
+						(xy 5.08 1.27) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -377,7 +455,29 @@
 					)
 				)
 				(circle
+					(center 0 1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
 					(center 2.54 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.27)
 					(radius 0.254)
 					(stroke
 						(width 0.635)
@@ -399,7 +499,7 @@
 					)
 				)
 				(circle
-					(center 7.62 -1.27)
+					(center 5.08 1.27)
 					(radius 0.254)
 					(stroke
 						(width 0.635)
@@ -410,7 +510,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 90)
+					(at 5.08 5.08 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -428,7 +528,25 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 90)
+					(at -5.08 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -446,7 +564,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -482,7 +600,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 90)
+					(at 0 5.08 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -500,7 +618,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 90)
+					(at 0 -5.08 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -517,42 +635,122 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
 		)
 	)
+	(no_connect
+		(at 99.06 113.03)
+		(uuid "1276b4d8-a4f3-42aa-81fa-bc3041202ae8")
+	)
+	(no_connect
+		(at 99.06 102.87)
+		(uuid "4c050269-f446-4704-bc2b-6081a13344c8")
+	)
+	(no_connect
+		(at 147.32 113.03)
+		(uuid "666e8217-9466-480d-ac07-e004f83ba6e6")
+	)
+	(no_connect
+		(at 147.32 102.87)
+		(uuid "d9b89524-76c7-4df8-bbba-9fbe75f28343")
+	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 160.02 109.22)
+			(xy 128.27 102.87) (xy 147.32 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e86bcaa-c223-42cd-98db-039473e56118")
+		(uuid "11f6c473-f61b-412c-8383-a38f01361a0a")
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 160.02 106.68)
+			(xy 128.27 105.41) (xy 147.32 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35ec66f6-1667-47c3-81df-660589335fc6")
+		(uuid "1ecfa89f-813a-4a72-a825-193838aa47b3")
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 160.02 101.6)
+			(xy 99.06 102.87) (xy 118.11 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41cc122d-45be-4187-99c8-796c41b95cca")
+		(uuid "2978dfcd-d3f3-4dd7-80ae-0937a47aee7f")
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 160.02 114.3)
+			(xy 128.27 107.95) (xy 147.32 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e2b47c-6667-4d09-a734-b4ea21951828")
+	)
+	(wire
+		(pts
+			(xy 128.27 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -562,87 +760,93 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 160.02 104.14)
+			(xy 100.33 107.95) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e7f31b5-1e5e-4e9b-aefb-f76395ccec68")
+		(uuid "90ec2292-9733-4b5a-bf63-c023cd7ef545")
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 160.02 111.76)
+			(xy 100.33 110.49) (xy 118.11 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eff388de-f11a-4cd4-afde-1b31668d6a76")
+		(uuid "af64f261-0b52-444b-a101-d532d93dbcdd")
 	)
-	(hierarchical_label "Button_2"
-		(shape output)
-		(at 160.02 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 128.27 113.03) (xy 147.32 113.03)
 		)
-		(uuid "12ac5bf8-e42a-4a60-8739-b1dcac5db785")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf42050b-f401-4f07-901d-7f6eb2d8ad42")
 	)
-	(hierarchical_label "Button_3"
-		(shape output)
-		(at 160.02 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 118.11 105.41)
 		)
-		(uuid "1385b967-54a5-4df3-bc5d-6d0315d99fe0")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63999ab-dc9e-4d2f-95db-9bac2bdea3f9")
 	)
-	(hierarchical_label "GND"
-		(shape output)
-		(at 160.02 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 99.06 113.03) (xy 118.11 113.03)
 		)
-		(uuid "2b425a62-023e-486a-aa4b-e420c0d2bde5")
-	)
-	(hierarchical_label "Button_1"
-		(shape output)
-		(at 160.02 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "7b3611ce-7021-4f53-bbcd-00139f5e68ff")
-	)
-	(hierarchical_label "VCC"
-		(shape output)
-		(at 160.02 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0ef8a1b-1812-40f8-9e27-b3cd9c1d43cc")
+		(uuid "d834d03d-0c92-4653-a089-674a2fa01018")
 	)
 	(hierarchical_label "Button_4"
-		(shape output)
-		(at 160.02 109.22 0)
+		(shape bidirectional)
+		(at 100.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "331ede93-3b09-4202-aa1d-23b2fcb36681")
+	)
+	(hierarchical_label "Button_3"
+		(shape bidirectional)
+		(at 100.33 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d0d357f-7823-45ef-92dc-501fa63b1a45")
+	)
+	(hierarchical_label "Button_2"
+		(shape bidirectional)
+		(at 100.33 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ef4c6e6-3675-416c-bb5b-c24cfa0b3b70")
+	)
+	(hierarchical_label "VCC"
+		(shape bidirectional)
+		(at 147.32 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -650,38 +854,60 @@
 			)
 			(justify left)
 		)
-		(uuid "fa6baf72-dc61-4423-aadd-9705e39747fb")
+		(uuid "96b314da-e3f7-4ef1-b908-d28545c33c35")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 147.32 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea74d564-c04d-4408-bb4d-da2b8c8bb585")
+	)
+	(hierarchical_label "Button_1"
+		(shape bidirectional)
+		(at 147.32 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe6f8a98-4471-4cd7-8f5a-b9fb2b35c1ec")
 	)
 	(symbol
-		(lib_id "61900619521:61900619521")
-		(at 129.54 109.22 90)
+		(lib_id "6250XX21721_62501021721:6250XX21721_62501021721")
+		(at 123.19 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f80bbfdf-0348-4439-acff-3fed61e7ebf6")
+		(uuid "729d8b43-46e1-4419-99c1-010595c3e6eb")
 		(property "Reference" "J1"
-			(at 130.81 97.79 90)
+			(at 123.19 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "61900619521"
-			(at 129.54 109.22 0)
+		(property "Value" "6250XX21721_62501021721"
+			(at 123.19 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom footprints:61900619521"
-			(at 129.54 109.22 0)
+		(property "Footprint" "Custom footprints:62501021721"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,7 +917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,7 +926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +935,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +945,7 @@
 			)
 		)
 		(property "CONTACT-RESISTANCE" "20mOhm"
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,8 +954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            EMI Gaskets, Sheets, Absorbers & Shielding\n                        \n"
-			(at 129.54 109.22 0)
+		(property "Description_1" "\n                        \n                            CONN, R/A HEADER, 10POS, 2ROW, 2MM ROHS COMPLIANT: YES\n                        \n"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +965,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +975,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +985,7 @@
 			)
 		)
 		(property "MOUNT" "THT"
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,8 +994,8 @@
 				(hide yes)
 			)
 		)
-		(property "PITCH" "2.54mm"
-			(at 129.54 109.22 0)
+		(property "IR" "2A"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,8 +1004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/61900619521/Wurth+Elektronik/view-part/?ref=eda"
-			(at 129.54 109.22 0)
+		(property "VALUE" "62501021721"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -788,8 +1014,8 @@
 				(hide yes)
 			)
 		)
-		(property "L" "15.24mm"
-			(at 129.54 109.22 0)
+		(property "Availability" "In Stock"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,8 +1024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
-			(at 129.54 109.22 0)
+		(property "PACKAGING" "Tray"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,8 +1034,8 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGING" "Bag"
-			(at 129.54 109.22 0)
+		(property "PART-NUMBER" "62501021721"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,8 +1044,8 @@
 				(hide yes)
 			)
 		)
-		(property "PART-NUMBER" "61900619521"
-			(at 129.54 109.22 0)
+		(property "LENGTH" "17.25mm"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,8 +1054,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/61900619521/Wurth+Elektronik/view-part/?ref=snap"
-			(at 129.54 109.22 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/62501021721/Wurth+Elektronik/view-part/?ref=snap"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,8 +1064,8 @@
 				(hide yes)
 			)
 		)
-		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61900619521?ae"
-			(at 129.54 109.22 0)
+		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/62501021721?ae"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,8 +1074,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "61900619521"
-			(at 129.54 109.22 0)
+		(property "MP" "62501021721"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +1085,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" "250V(AC)"
-			(at 129.54 109.22 0)
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,8 +1094,8 @@
 				(hide yes)
 			)
 		)
-		(property "PINS" "6"
-			(at 129.54 109.22 0)
+		(property "PINS" "10"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,8 +1104,8 @@
 				(hide yes)
 			)
 		)
-		(property "TYPE" "Right Angled Top Locking"
-			(at 129.54 109.22 0)
+		(property "PITCH" "2mm"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,8 +1114,8 @@
 				(hide yes)
 			)
 		)
-		(property "PCB-CABLE-PANEL" "PCB"
-			(at 129.54 109.22 0)
+		(property "TYPE" "Angled"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,8 +1124,8 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "Not in stock"
-			(at 129.54 109.22 0)
+		(property "Price" "None"
+			(at 123.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,23 +1134,45 @@
 				(hide yes)
 			)
 		)
-		(pin "5"
-			(uuid "cbc3f7b0-b347-4291-acc3-0bd44ca9cc8d")
+		(property "Check_prices" "https://www.snapeda.com/parts/62501021721/Wurth+Elektronik/view-part/?ref=eda"
+			(at 123.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "c910a099-6595-43a6-bb3a-9aa094ca72e6")
-		)
-		(pin "3"
-			(uuid "579bcd1a-ecd7-411b-b809-a6f456324797")
+		(pin "9"
+			(uuid "2caba876-61ba-461b-ac0d-cf4e69a5e8c5")
 		)
 		(pin "1"
-			(uuid "63626656-3b1e-43cb-b8a9-2edf172ae811")
+			(uuid "59d052f8-5222-4f40-9826-4b19fc4a7b21")
+		)
+		(pin "8"
+			(uuid "c49cc2dd-d396-4765-97df-41b84eec63bc")
+		)
+		(pin "3"
+			(uuid "3470bd3f-5ec8-46e9-a279-9104a55710e5")
 		)
 		(pin "4"
-			(uuid "05052829-61cb-40c6-a15e-464a23ec2965")
+			(uuid "64f6cb3f-5781-4df8-89e4-fc559cb7c4fe")
+		)
+		(pin "7"
+			(uuid "f7563a3f-ac3b-4317-8119-839bdf62ced6")
+		)
+		(pin "10"
+			(uuid "5f83c6df-5876-41ec-b10c-de8091982c8f")
+		)
+		(pin "5"
+			(uuid "fcea1566-aff9-4310-9b43-8985731c43ce")
+		)
+		(pin "2"
+			(uuid "12b47957-66f3-4992-bc6f-f0fda15c925f")
 		)
 		(pin "6"
-			(uuid "44a56ed2-3655-4e5b-a7c8-77fc83b2bb27")
+			(uuid "a71d5ab3-2da0-4569-b602-28bfc9b2b4e8")
 		)
 		(instances
 			(project "feather_daughterboard"
