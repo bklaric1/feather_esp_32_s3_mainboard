@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "e1e12730-ab4f-45db-8b66-c1e0f78e2f00")
 	(paper "A4")
+	(title_block
+		(title "Feather Mainboard")
+		(date "2024-10-30")
+		(rev "1")
+		(company "bklaric")
+		(comment 4 "lprd_feather_mainboard")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)

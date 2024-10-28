@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "f87bd391-02e1-482b-840f-25c34f805c61")
 	(paper "A4")
+	(title_block
+		(title "Feather Daughterboard")
+		(date "2024-10-30")
+		(rev "1")
+		(company "bklaric")
+		(comment 4 "lprd_feather_daughterboard")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)

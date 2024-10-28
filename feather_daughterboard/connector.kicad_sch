@@ -20,12 +20,13 @@
 					)
 				)
 			)
-			(property "Value" "6250XX21721_62501021721"
-				(at 10.16 0 90)
+			(property "Value" "62501021721"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -118,16 +119,6 @@
 				)
 			)
 			(property "IR" "2A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "62501021721"
 				(at 0 0 0)
 				(effects
 					(font

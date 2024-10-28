@@ -450,10 +450,10 @@
 		(uuid "01b6d872-2221-4127-a9f8-0bcb890788ac")
 	)
 	(junction
-		(at 154.94 111.76)
+		(at 154.94 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8052f82f-e529-4c7b-b21e-61e27a8ae8d5")
+		(uuid "74ded36c-0030-4183-815a-d5990ca46acf")
 	)
 	(junction
 		(at 149.86 87.63)
@@ -513,7 +513,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 109.22) (xy 161.29 109.22)
+			(xy 144.78 111.76) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -533,7 +533,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 116.84)
+			(xy 144.78 114.3) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
@@ -573,7 +573,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 105.41) (xy 154.94 111.76)
+			(xy 144.78 111.76) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85861ed-6bac-4f51-a569-37e57edd402e")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 114.3)
 		)
 		(stroke
 			(width 0)
@@ -593,7 +603,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 111.76) (xy 161.29 111.76)
+			(xy 154.94 114.3) (xy 161.29 114.3)
 		)
 		(stroke
 			(width 0)
@@ -603,7 +613,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 154.94 111.76)
+			(xy 144.78 114.3) (xy 154.94 114.3)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +669,7 @@
 	)
 	(symbol
 		(lib_id "6130XX11121_61300211121:6130XX11121_61300211121")
-		(at 166.37 111.76 270)
+		(at 166.37 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -667,7 +677,7 @@
 		(dnp no)
 		(uuid "07c7f7a1-1579-4c1b-afaa-bae3f514cb23")
 		(property "Reference" "J6"
-			(at 163.83 106.934 90)
+			(at 163.83 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +686,7 @@
 			)
 		)
 		(property "Value" "61300211121"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +696,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:61300211121"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +724,7 @@
 			)
 		)
 		(property "ROWS" "Single"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +734,7 @@
 			)
 		)
 		(property "GENDER" "Pin Header"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +744,7 @@
 			)
 		)
 		(property "MOUNT" "THT"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +754,7 @@
 			)
 		)
 		(property "IR" "3A"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +764,7 @@
 			)
 		)
 		(property "PACKAGING" "Bag"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +774,7 @@
 			)
 		)
 		(property "PINS" "2"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +784,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/61300211121?ae"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +794,7 @@
 			)
 		)
 		(property "PITCH" "2.54mm"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +804,7 @@
 			)
 		)
 		(property "PART-NUMBER" "61300211121"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +814,7 @@
 			)
 		)
 		(property "TYPE" "Straight"
-			(at 166.37 111.76 0)
+			(at 166.37 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
