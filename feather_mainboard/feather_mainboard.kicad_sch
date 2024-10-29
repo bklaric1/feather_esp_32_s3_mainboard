@@ -8,7 +8,7 @@
 		(title "Feather Mainboard")
 		(date "2024-10-30")
 		(rev "1")
-		(company "bklaric")
+		(company "Benjamin Klaric")
 		(comment 4 "lprd_feather_mainboard")
 	)
 	(lib_symbols
