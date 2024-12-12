@@ -1328,7 +1328,7 @@
 		)
 		(uuid "0cd04e76-12e4-4feb-ba89-04b85bceeb5f")
 	)
-	(hierarchical_label "SD_MISO{slash}CMD"
+	(hierarchical_label "SD_MOSI{slash}CMD"
 		(shape bidirectional)
 		(at 222.25 93.98 0)
 		(fields_autoplaced yes)
@@ -1412,7 +1412,7 @@
 		)
 		(uuid "60c01511-0f82-4104-9546-8a3c1ff26d1c")
 	)
-	(hierarchical_label "SD_MOSI{slash}DAT0"
+	(hierarchical_label "SD_MISO{slash}DAT0"
 		(shape bidirectional)
 		(at 222.25 101.6 0)
 		(fields_autoplaced yes)

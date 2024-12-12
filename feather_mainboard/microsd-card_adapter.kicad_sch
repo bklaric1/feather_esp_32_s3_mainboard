@@ -1895,7 +1895,7 @@
 			)
 		)
 	)
-	(hierarchical_label "SD_MOSI{slash}DAT0"
+	(hierarchical_label "SD_MISO{slash}DAT0"
 		(shape bidirectional)
 		(at 107.95 106.68 180)
 		(fields_autoplaced yes)
@@ -1991,7 +1991,7 @@
 		)
 		(uuid "672fb855-8f58-4bbd-8158-d7245d68a036")
 	)
-	(hierarchical_label "SD_MISO{slash}CMD"
+	(hierarchical_label "SD_MOSI{slash}CMD"
 		(shape bidirectional)
 		(at 107.95 96.52 180)
 		(fields_autoplaced yes)

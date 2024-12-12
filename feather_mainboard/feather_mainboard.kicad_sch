@@ -1441,16 +1441,6 @@
 			)
 			(uuid "ac4d96c2-4b76-45e1-84e1-cdff8debf9b6")
 		)
-		(pin "SD_MOSI{slash}DAT0" bidirectional
-			(at 172.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "916bce21-cf81-4a1d-806c-023825cc0056")
-		)
 		(pin "SD_CLK" bidirectional
 			(at 172.72 88.9 0)
 			(effects
@@ -1460,16 +1450,6 @@
 				(justify right)
 			)
 			(uuid "b7dfae92-9e56-45af-bdbf-84de632cb7a4")
-		)
-		(pin "SD_MISO{slash}CMD" bidirectional
-			(at 172.72 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "f21ed3a3-4667-4e7f-8919-b07354eb66df")
 		)
 		(pin "SD_CS{slash}DAT3" bidirectional
 			(at 172.72 96.52 0)
@@ -1500,6 +1480,26 @@
 				(justify left)
 			)
 			(uuid "98af7f5b-b0cc-41bd-94a9-e29bd010829d")
+		)
+		(pin "SD_MOSI{slash}CMD" bidirectional
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6838c9b0-bfde-4965-bfe8-2f86503414b5")
+		)
+		(pin "SD_MISO{slash}DAT0" bidirectional
+			(at 172.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b7803b4-ce44-4cf3-b1da-4970a3fdef16")
 		)
 		(instances
 			(project "feather_mainboard"
@@ -1550,16 +1550,6 @@
 			)
 			(uuid "f0765f31-1a73-4369-b4e5-425864113506")
 		)
-		(pin "SD_MISO{slash}CMD" bidirectional
-			(at 209.55 85.09 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c94cbcdb-cbfc-4fc2-895c-36438bd8c1a6")
-		)
 		(pin "SD_DAT1" bidirectional
 			(at 209.55 104.14 180)
 			(effects
@@ -1579,16 +1569,6 @@
 				(justify right)
 			)
 			(uuid "9dc782de-ad98-436c-9513-2be33bd76fbc")
-		)
-		(pin "SD_MOSI{slash}DAT0" bidirectional
-			(at 209.55 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "19fe0292-cad8-4556-87eb-0a908502d9da")
 		)
 		(pin "SD_VCC" bidirectional
 			(at 248.92 88.9 0)
@@ -1629,6 +1609,26 @@
 				(justify left)
 			)
 			(uuid "503ac1cc-59f1-41c8-8457-6bdffe1fb32c")
+		)
+		(pin "SD_MOSI{slash}CMD" bidirectional
+			(at 209.55 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57216743-b5dd-484b-8398-a35243989020")
+		)
+		(pin "SD_MISO{slash}DAT0" bidirectional
+			(at 209.55 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e23285d8-b19d-4921-bd56-2b9c12224c27")
 		)
 		(instances
 			(project "feather_mainboard"
