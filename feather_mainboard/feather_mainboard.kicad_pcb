@@ -7616,7 +7616,7 @@
 		(at 150.1 83.3 180)
 		(descr "<b>WCAP-CSMH MLCCs </b><br>4.5x2.03x2.0(LXWXH);")
 		(property "Reference" "C3"
-			(at 3.7 0 -90)
+			(at 0 1.9 0)
 			(layer "F.SilkS")
 			(uuid "dd076273-6cd5-443c-b6f8-49e171071ba1")
 			(effects
@@ -17468,7 +17468,7 @@
 		(uuid "04f9362a-b8f2-4fe9-937a-f9c33b1a2672")
 	)
 	(via
-		(at 175.42 81.9)
+		(at 175.1 82.7)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -17531,7 +17531,7 @@
 		(uuid "0c4d78fd-b416-4328-8cc4-2cb8fb841db7")
 	)
 	(via
-		(at 155.4 106.2)
+		(at 155.5 106.3)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -18098,7 +18098,7 @@
 		(uuid "7e0cebf7-6cff-4dda-af28-3e9e6d1ee7e5")
 	)
 	(via
-		(at 162.59 99.17)
+		(at 162.6 99.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -18557,7 +18557,7 @@
 		(uuid "c44d57bf-e9a7-4070-850d-465963ea5017")
 	)
 	(via
-		(at 157 103.2)
+		(at 156.9 103.2)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -18611,7 +18611,7 @@
 		(uuid "d17afe68-3f77-49e8-a424-2b7f81464863")
 	)
 	(via
-		(at 155.6 104.5)
+		(at 155.6 104.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
