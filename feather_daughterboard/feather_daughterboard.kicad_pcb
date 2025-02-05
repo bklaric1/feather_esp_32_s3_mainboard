@@ -6666,8 +6666,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "LPRD_Feather_DaughterBoard_V1"
-		(at 158.8 83 0)
+	(gr_text "LPRD_Feather_Daughterboard_V1.1"
+		(at 159.8 83 0)
 		(layer "B.SilkS")
 		(uuid "9e5d5fe5-9fde-4c55-a3ff-9b691a506938")
 		(effects
@@ -6692,7 +6692,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Benjamin Klaric"
+	(gr_text "Benjamin Klarić"
 		(at 173.8 80.9 0)
 		(layer "F.SilkS")
 		(uuid "57e8dc79-4bcb-41eb-8ff3-b2c95bd32fc9")
