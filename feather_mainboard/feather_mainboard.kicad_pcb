@@ -5287,13 +5287,13 @@
 		(at 148.8 79.8)
 		(tags "PMEG6010CEH_115 ")
 		(property "Reference" "D1"
-			(at 0 -1.9 0)
+			(at 0 -1.7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6f37d421-0fc1-4cf6-8ade-dba62b38a0c7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -5668,41 +5668,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "c7580fa8-274a-4919-9b3f-5af6e9712ad1")
-		)
-		(fp_text user "*"
-			(at -1.0922 0 0)
-			(layer "F.Fab")
-			(uuid "3a46105d-a059-4e31-bf9f-e203c5eb1ae0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "484c22ac-57ab-4b4e-b82b-fcd8abd7fc44")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "*"
-			(at -1.0922 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f6f0b0d5-104b-4278-88e2-703beb40523c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" smd rect
 			(at -1.6256 0)
@@ -16980,7 +16945,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "LPRD_Feather_MainBoard_V1.1"
+	(gr_text "LPRD_Feather_Mainboard_V1.1"
 		(at 178.9 75.3 90)
 		(layer "B.SilkS")
 		(uuid "101807ff-95d8-4fc8-89a3-ccd5171521f1")
@@ -17396,7 +17361,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LPRD_Feather_MainBoard_V1.1"
+	(gr_text "LPRD_Feather_Mainboard_V1.1"
 		(at 178.9 116 90)
 		(layer "F.SilkS")
 		(uuid "e27ece54-d249-439e-bcda-555e10a958cc")
@@ -17422,7 +17387,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Benjamin\nKlaric"
+	(gr_text "Benjamin\nKlarić"
 		(at 129.675 128.8 90)
 		(layer "F.SilkS")
 		(uuid "e80c1c29-b74f-4391-b35c-e1c48ba1f4c2")
