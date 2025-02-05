@@ -20,7 +20,7 @@ The connector for the board is the connector that links the two boards together.
 Implementation of the external reset button isn't fully finished, but rather left as two pins on the board. I wasn't sure if we'll need to move the reset button somewhere more accessible, so I left it like that. There is no need for another reset button on the board because the microcontroller already features a built-in reset button.  
 I also brought the IIC pins out on the board, in case a sensor is need later. These pins are already used internally for the battery monitoring through the MAX17048 chip.  
 The battery connection is found directly on the microcontroller module. It is the JST 2-PH plug.  
-The microSD adapter is designed by the specification of the espressif themselves, according to their [README](https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/sdmmc/README.md). I also fully modified the design to make it possible to switch from the 4-wire connection (SDIO) to the 1-wire connection (SPI), in case we need more GPIO pins for something else.
+The microSD adapter is designed by the specification of the espressif themselves, according to their [README](https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/sdmmc/README.md). I also fully modified the design to make it possible to switch from the 4-wire connection (SD mode) to the 1-wire connection (SPI), in case we need more GPIO pins for something else.
 
 ### Daugther board
 The design of the daughter board is very simple. It only includes the four buttons with the debouncing design respectively. 
