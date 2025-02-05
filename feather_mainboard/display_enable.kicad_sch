@@ -1546,7 +1546,6 @@
 	(hierarchical_label "Switch"
 		(shape bidirectional)
 		(at 187.96 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1558,7 +1557,6 @@
 	(hierarchical_label "EN"
 		(shape bidirectional)
 		(at 92.71 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

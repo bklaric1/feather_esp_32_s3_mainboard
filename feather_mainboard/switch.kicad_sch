@@ -263,7 +263,6 @@
 	(hierarchical_label "Booster"
 		(shape bidirectional)
 		(at 154.94 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -275,7 +274,6 @@
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 154.94 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -287,7 +285,6 @@
 	(hierarchical_label "Switch"
 		(shape bidirectional)
 		(at 132.08 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

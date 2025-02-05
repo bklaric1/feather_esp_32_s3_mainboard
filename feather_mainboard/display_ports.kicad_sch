@@ -794,7 +794,6 @@
 	(hierarchical_label "RST"
 		(shape bidirectional)
 		(at 134.62 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -806,7 +805,6 @@
 	(hierarchical_label "DIN"
 		(shape bidirectional)
 		(at 134.62 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -818,7 +816,6 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 162.56 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -830,7 +827,6 @@
 	(hierarchical_label "DC"
 		(shape bidirectional)
 		(at 162.56 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -842,7 +838,6 @@
 	(hierarchical_label "CS"
 		(shape bidirectional)
 		(at 134.62 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -854,7 +849,6 @@
 	(hierarchical_label "VCC"
 		(shape bidirectional)
 		(at 134.62 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -866,7 +860,6 @@
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
 		(at 162.56 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -878,7 +871,6 @@
 	(hierarchical_label "BUSY"
 		(shape bidirectional)
 		(at 162.56 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

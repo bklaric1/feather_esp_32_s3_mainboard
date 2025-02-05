@@ -1275,7 +1275,6 @@
 	(hierarchical_label "VIN+"
 		(shape bidirectional)
 		(at 102.87 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1287,7 +1286,6 @@
 	(hierarchical_label "VOUT+"
 		(shape bidirectional)
 		(at 177.8 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -748,247 +748,6 @@
 				)
 			)
 		)
-		(symbol "SDO_SOD123F_NEX:PMEG6010CEH_115"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 5.08 4.445 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PMEG6010CEH_115"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Custom footprints:SDO_SOD123F_NEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "PMEG6010CEH_115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PMEG6010CEH,115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SDO_SOD123F_NEX SDO_SOD123F_NEX-M SDO_SOD123F_NEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMEG6010CEH_115_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.905) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 -1.905) (xy 5.715 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 5.715 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.905) (xy 6.985 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 1.905) (xy 6.985 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "WCAP-CSGP_0603:WCAP-CSGP_0603"
 			(pin_names
 				(offset 1.016)
@@ -1491,16 +1250,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcb655ff-66a7-4aec-bc44-3d9d8f517ca8")
-	)
-	(wire
-		(pts
-			(xy 120.65 99.06) (xy 127 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "008538be-0e41-46cf-945c-e80cf3f33868")
 	)
 	(wire
 		(pts
@@ -2124,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 99.06) (xy 110.49 99.06)
+			(xy 92.71 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +1926,6 @@
 	(hierarchical_label "SD_MISO{slash}DAT0"
 		(shape bidirectional)
 		(at 92.71 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2189,7 +1937,6 @@
 	(hierarchical_label "SD_DAT1"
 		(shape bidirectional)
 		(at 92.71 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2201,7 +1948,6 @@
 	(hierarchical_label "SD_GND"
 		(shape bidirectional)
 		(at 92.71 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2213,7 +1959,6 @@
 	(hierarchical_label "SD_DAT2"
 		(shape bidirectional)
 		(at 92.71 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2225,7 +1970,6 @@
 	(hierarchical_label "SD_CS{slash}DAT3"
 		(shape bidirectional)
 		(at 92.71 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2237,7 +1981,6 @@
 	(hierarchical_label "SD_CD"
 		(shape bidirectional)
 		(at 92.71 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,7 +1992,6 @@
 	(hierarchical_label "SD_VCC"
 		(shape bidirectional)
 		(at 92.71 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,7 +2003,6 @@
 	(hierarchical_label "SD_CLK"
 		(shape bidirectional)
 		(at 92.71 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2273,7 +2014,6 @@
 	(hierarchical_label "SD_MOSI{slash}CMD"
 		(shape bidirectional)
 		(at 92.71 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2953,76 +2693,6 @@
 			(project "feather_mainboard"
 				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/6bb461df-e058-49ab-990d-543fb2df67dd"
 					(reference "R1_6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SDO_SOD123F_NEX:PMEG6010CEH_115")
-		(at 110.49 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b443a71-e538-4cd2-b41d-9cd797b13eba")
-		(property "Reference" "D1"
-			(at 115.824 95.504 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PMEG6010CEH_115"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Custom footprints:SDO_SOD123F_NEX"
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PMEG6010CEH_115"
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26e5ff12-98d6-481a-99d4-57fa53275c51")
-		)
-		(pin "1"
-			(uuid "8480c8a7-6851-4c82-abb1-f996eb74af16")
-		)
-		(instances
-			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/6bb461df-e058-49ab-990d-543fb2df67dd"
-					(reference "D1")
 					(unit 1)
 				)
 			)

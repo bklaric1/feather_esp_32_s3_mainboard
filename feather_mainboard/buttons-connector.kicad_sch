@@ -802,7 +802,6 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 173.99 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -814,7 +813,6 @@
 	(hierarchical_label "Button_2"
 		(shape bidirectional)
 		(at 130.81 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -826,7 +824,6 @@
 	(hierarchical_label "Button_3"
 		(shape bidirectional)
 		(at 130.81 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -838,7 +835,6 @@
 	(hierarchical_label "Button_4"
 		(shape bidirectional)
 		(at 130.81 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -850,7 +846,6 @@
 	(hierarchical_label "Button_1"
 		(shape bidirectional)
 		(at 173.99 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -862,7 +857,6 @@
 	(hierarchical_label "VCC"
 		(shape bidirectional)
 		(at 173.99 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -857,7 +857,6 @@
 	(hierarchical_label "RST"
 		(shape bidirectional)
 		(at 110.49 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
