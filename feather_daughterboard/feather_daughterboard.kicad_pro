@@ -102,7 +102,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -638,7 +638,7 @@
     ],
     [
       "1643200e-4944-407e-95a0-66f0524df32d",
-      "Buttons"
+      "Board"
     ],
     [
       "2bd35ebf-9a80-4c43-95ba-dd995c27caae",

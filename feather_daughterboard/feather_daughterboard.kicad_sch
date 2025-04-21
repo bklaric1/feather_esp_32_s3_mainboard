@@ -201,6 +201,17 @@
 		)
 		(uuid "f70ee884-89c9-4f00-ba77-0c55564b66d3")
 	)
+	(text "R1_x -> 10 kΩ\nR3_x -> 75 kΩ\nC1_x -> 100 nF"
+		(exclude_from_sim no)
+		(at 245.872 158.75 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left)
+		)
+		(uuid "4b4e78ae-f093-4899-a819-b86c3a043f6e")
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 152.4 111.76 180)
@@ -279,10 +290,10 @@
 			(type solid)
 		)
 		(fill
-			(color 248 237 193 1.0000)
+			(color 128 253 127 1.0000)
 		)
 		(uuid "1643200e-4944-407e-95a0-66f0524df32d")
-		(property "Sheetname" "Buttons"
+		(property "Sheetname" "Board"
 			(at 165.1 75.4884 0)
 			(effects
 				(font
@@ -306,6 +317,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify left)
 			)
@@ -316,6 +328,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify left)
 			)
@@ -326,6 +339,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify left)
 			)
@@ -336,6 +350,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify left)
 			)
@@ -346,6 +361,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify left)
 			)
@@ -356,6 +372,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify left)
 			)
@@ -378,7 +395,7 @@
 			(type solid)
 		)
 		(fill
-			(color 248 237 193 1.0000)
+			(color 128 253 127 1.0000)
 		)
 		(uuid "2bd35ebf-9a80-4c43-95ba-dd995c27caae")
 		(property "Sheetname" "Connector"
@@ -405,6 +422,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify right)
 			)
@@ -415,6 +433,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify right)
 			)
@@ -425,6 +444,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify right)
 			)
@@ -435,6 +455,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify right)
 			)
@@ -445,6 +466,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify right)
 			)
@@ -455,6 +477,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(color 132 0 0 1)
 				)
 				(justify right)
 			)
