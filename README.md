@@ -1,6 +1,6 @@
 # feather_esp_32_s3_mainboard
 
-## Main board PCB for the second version of the first project at Technical University of Applied Science Augsburg
+## Mainboard PCB for a project at Technical University of Applied Science Augsburg
 
 ### Explanation
 This repo contains the KiCad 8 files for the main board and the daughter board of the project.  
