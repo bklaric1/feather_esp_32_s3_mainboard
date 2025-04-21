@@ -12,7 +12,7 @@ The system is made up from two main PCBs, one that houses the microcontroller an
 All the parts, except the microcontroller, are sponsored by Würth Elektronik. Many thanks to them, as without them sponsoring the parts, the production of the boards would be too expensive for a student project.  
 The case for the display, PCBs, and the battery pack are all designed by us and 3D printed.  
 
-### Main board
+### Mainboard
 The main board houses the already mentioned Adafruit ESP32-S3 Feather microcontroller. We used the version with 4 MB Flash and 2 MB PSRAM, as we needed the RAM to store a part of firmware on it (static images). The pinout is the same as some other version, so the PCB Design can be used with them as well.  
 As already mentioned, there is a 3.3V to 5V Boost-Converter implemented on the board. It is found in the configuration provided by the Würth Elektronik. To switch the output voltage on the display's voltage pin, one needs to only move the switch in another position, as labeled on the board.  
 The pinout for the display connector corresponds to the two display manufactures I mentioned above, but check the pinouts before connecting.  
@@ -22,7 +22,7 @@ I also brought the IIC pins out on the board, in case a sensor is need later. Th
 The battery connection is found directly on the microcontroller module. It is the JST 2-PH plug.  
 The microSD adapter is designed by the specification of the espressif themselves, according to their [README](https://github.com/espressif/esp-idf/blob/master/examples/storage/sd_card/sdmmc/README.md). I also fully modified the design to make it possible to switch from the 4-wire connection (SD mode) to the 1-wire connection (SPI), in case we need more GPIO pins for something else.
 
-### Daugther board
+### Daugtherboard
 The design of the daughter board is very simple. It only includes the four buttons with the debouncing design respectively. 
 The connector links with the main board to make the system complete.
 Board only has one mounting hole, because of the maximum length constrains. We designed the plugin spot for the board on one side, similar to the M.2 SSD mounting technology.

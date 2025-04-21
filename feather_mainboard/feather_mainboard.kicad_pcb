@@ -115,7 +115,7 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 1"
+			(layer "dielectric 2"
 				(type "core")
 				(color "FR4 natural")
 				(thickness 1.459)
