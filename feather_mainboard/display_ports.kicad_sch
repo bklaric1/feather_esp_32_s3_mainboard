@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
+			(property "Reference" "J3"
 				(at 8.636 0 90)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Custom footprints:62501021721"
+			(property "Footprint" "Custom footprints:62501021721_full"
 				(at 0 0 0)
 				(effects
 					(font
@@ -791,9 +791,10 @@
 		)
 		(uuid "f1b3f8bb-4071-43a5-9f5f-21f91ff6f161")
 	)
-	(hierarchical_label "RST"
+	(hierarchical_label "DISPLAY_RST"
 		(shape bidirectional)
 		(at 134.62 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -802,9 +803,10 @@
 		)
 		(uuid "02499102-a196-41f1-a821-6aeb40f961a5")
 	)
-	(hierarchical_label "DIN"
+	(hierarchical_label "DISPLAY_MOSI{slash}DIN"
 		(shape bidirectional)
 		(at 134.62 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,9 +815,10 @@
 		)
 		(uuid "315a9721-3820-44ec-a5dc-aef6d65c2ad0")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "DISPLAY_GND"
 		(shape bidirectional)
 		(at 162.56 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,9 +827,10 @@
 		)
 		(uuid "7683183e-a3a1-41c6-985a-a4983f6e0214")
 	)
-	(hierarchical_label "DC"
+	(hierarchical_label "DISPLAY_DC"
 		(shape bidirectional)
 		(at 162.56 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -835,9 +839,10 @@
 		)
 		(uuid "9f46ef02-7289-4feb-8677-46e3c8058595")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "DISPLAY_CS"
 		(shape bidirectional)
 		(at 134.62 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,9 +851,10 @@
 		)
 		(uuid "a8802f89-32ce-4a1e-a0d9-f9fa334995df")
 	)
-	(hierarchical_label "VCC"
+	(hierarchical_label "DISPLAY_VCC"
 		(shape bidirectional)
 		(at 134.62 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,9 +863,10 @@
 		)
 		(uuid "c562dc97-001e-42a6-ab74-f4e10d641efb")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "DISPLAY_SCLK"
 		(shape bidirectional)
 		(at 162.56 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -868,9 +875,10 @@
 		)
 		(uuid "d1ba374d-af7d-4d61-b0a2-3b7c77bfcfe3")
 	)
-	(hierarchical_label "BUSY"
+	(hierarchical_label "DISPLAY_BUSY"
 		(shape bidirectional)
 		(at 162.56 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -888,7 +896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31800c07-8ad0-498b-8528-c8a6a8f5da77")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 148.59 94.234 90)
 			(effects
 				(font
@@ -906,7 +914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom footprints:62501021721"
+		(property "Footprint" "Custom footprints:62501021721_full"
 			(at 148.59 102.87 0)
 			(effects
 				(font
@@ -1135,39 +1143,39 @@
 			)
 		)
 		(pin "6"
-			(uuid "d84b2548-0e34-4cab-b25a-31070a9ce6f1")
+			(uuid "5de69e4a-5cce-43be-b319-361fd01f0f93")
 		)
 		(pin "8"
-			(uuid "9741a53b-0b29-467b-a6ee-650f16239f18")
+			(uuid "14e363a6-561a-4775-b995-eac5b9cc6296")
 		)
 		(pin "5"
-			(uuid "1c75e8a6-a7e0-41d3-a35a-ed9db94b4d77")
+			(uuid "2a2f56ac-81ad-45f2-8d82-f800aab5b740")
 		)
 		(pin "10"
-			(uuid "bf959561-c31e-492b-8e81-c38a8c38bfde")
+			(uuid "225989e5-cb3f-4f45-acd1-f9c7e912f259")
 		)
 		(pin "4"
-			(uuid "31cecaf1-60d0-4970-a4c7-8504d52475b0")
+			(uuid "9ed34888-d744-4be1-a680-6dc7c3f657cb")
 		)
 		(pin "2"
-			(uuid "ced0d26e-175e-452e-bf6c-b1dc3799ff9c")
+			(uuid "3fdffaaf-41f7-4fac-b852-f0ccb3a0892b")
 		)
 		(pin "1"
-			(uuid "8e891cfd-31c3-47bb-a68a-bbac2e6ccf02")
+			(uuid "a4f59c75-b634-430b-9a0d-95599cedc0f8")
 		)
 		(pin "3"
-			(uuid "bc95da7c-14e6-4aa9-a745-1f9e54b9e82e")
+			(uuid "13e9cc27-8fe4-4a56-8123-82991d9ead8d")
 		)
 		(pin "9"
-			(uuid "2ae113b2-0ae7-44e0-b615-da6fbab2537c")
+			(uuid "9e9b4848-a300-4b35-87a4-bb896007a9f4")
 		)
 		(pin "7"
-			(uuid "e409528b-a8e3-47e3-8ae1-5d8f41f389df")
+			(uuid "356ff2a9-4580-43c5-a6c1-2ead9312fc38")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/a867e0b4-aaaa-4d5d-aab5-187e8be84092"
-					(reference "J1")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/dc5b488a-e7a5-46d7-8d2b-6eefa2c6624d"
+					(reference "J3")
 					(unit 1)
 				)
 			)

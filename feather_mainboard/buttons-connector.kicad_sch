@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
+			(property "Reference" "J7"
 				(at 8.636 0 90)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Custom footprints:62501021721"
+			(property "Footprint" "Custom footprints:62501021721_full"
 				(at 0 0 0)
 				(effects
 					(font
@@ -802,6 +802,7 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 173.99 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,6 +814,7 @@
 	(hierarchical_label "Button_2"
 		(shape bidirectional)
 		(at 130.81 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,6 +826,7 @@
 	(hierarchical_label "Button_3"
 		(shape bidirectional)
 		(at 130.81 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -835,6 +838,7 @@
 	(hierarchical_label "Button_4"
 		(shape bidirectional)
 		(at 130.81 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -846,6 +850,7 @@
 	(hierarchical_label "Button_1"
 		(shape bidirectional)
 		(at 173.99 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,6 +862,7 @@
 	(hierarchical_label "VCC"
 		(shape bidirectional)
 		(at 173.99 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -874,7 +880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92bc2bce-c907-4c79-b981-233969f79505")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 152.4 90.424 90)
 			(effects
 				(font
@@ -892,7 +898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Custom footprints:62501021721"
+		(property "Footprint" "Custom footprints:62501021721_full"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -1121,39 +1127,39 @@
 			)
 		)
 		(pin "10"
-			(uuid "8828ee40-9866-4ee8-b3fe-22f74b286c4b")
+			(uuid "4ee3f333-65f9-4492-ab05-31c361b1cae6")
 		)
 		(pin "1"
-			(uuid "5f03609a-68ba-4a9c-a7eb-e1c6ca4e995f")
+			(uuid "0f17d8f0-2b97-4b67-bb9b-bef5592fcdc9")
 		)
 		(pin "2"
-			(uuid "d771c557-3a19-470a-8208-de22ff4e6814")
+			(uuid "c3b2d37f-e4eb-48a6-a9eb-177b4d6f878c")
 		)
 		(pin "5"
-			(uuid "2eb19374-c15a-47d0-b147-c3565087f737")
+			(uuid "2e6ce46d-6e14-4d82-80be-10d7304055ad")
 		)
 		(pin "7"
-			(uuid "fcc47261-9158-4e60-948a-55efaa39f56d")
+			(uuid "1ad3f29b-db38-4809-bf21-02cca4f53586")
 		)
 		(pin "4"
-			(uuid "7effa82f-2d2b-46f8-b404-2221b0f402a1")
+			(uuid "78f77aa8-9a20-4ba4-a47a-2bc728c8bf75")
 		)
 		(pin "6"
-			(uuid "88b8f6f7-e31d-4ea6-b0ec-a59fc6b5b6c6")
+			(uuid "6a9655f5-de94-49d4-8e7c-14c997ffea8b")
 		)
 		(pin "3"
-			(uuid "12493867-1b62-4a32-b76d-e7913579cf98")
+			(uuid "24bb159e-0db7-4ab4-aa47-42fe415872d3")
 		)
 		(pin "9"
-			(uuid "ca520f14-3a53-4094-9202-8f4822acd0c7")
+			(uuid "e03a4ad4-bf6e-4dfc-a073-62f4a7028a4e")
 		)
 		(pin "8"
-			(uuid "30c41174-c974-44fa-8592-d95697fd1c77")
+			(uuid "ddfba8d0-12a0-4303-8937-b1ae9ac1e1ea")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/2182aea7-eb34-437a-b655-8b840f0aafa8"
-					(reference "J2")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/d8170bd3-ccd7-48c9-875f-738a35416792"
+					(reference "J7")
 					(unit 1)
 				)
 			)

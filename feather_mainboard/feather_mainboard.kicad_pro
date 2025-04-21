@@ -103,7 +103,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -131,7 +131,7 @@
         "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -525,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "../../../Downloads/feather_mainboard.dsn",
       "step": "../../../Downloads/feather_mainboard.step",
@@ -801,40 +801,32 @@
       "Root"
     ],
     [
-      "2e3e5636-c492-45ef-bece-a2815296f467",
-      "Microcontroller"
-    ],
-    [
-      "e2a4e638-a577-4462-b00f-f16be15249be",
-      "Display-Enable"
-    ],
-    [
-      "149cfc71-2d8e-4850-afcf-2d86d8c8a060",
-      "Switch"
-    ],
-    [
-      "bcd38403-f30d-4d25-9221-d4e2b9310dad",
-      "Boost-Converter"
-    ],
-    [
-      "a867e0b4-aaaa-4d5d-aab5-187e8be84092",
-      "Display-Ports"
-    ],
-    [
-      "2182aea7-eb34-437a-b655-8b840f0aafa8",
-      "Buttons-Connector"
-    ],
-    [
-      "0d3ffa4d-b734-4a21-ae0e-364ca9762bbd",
-      "Reset-Button"
-    ],
-    [
-      "6bb461df-e058-49ab-990d-543fb2df67dd",
+      "a78c7f4b-b828-4491-be42-7944d8eb0ce1",
       "MicroSD-Card Adapter"
     ],
     [
-      "ff9ad5fa-00ba-4ea3-956b-8f18c92a633c",
-      "IIC"
+      "98c01520-deea-4d79-9e46-95cc0e470bab",
+      "Microcontroller"
+    ],
+    [
+      "05fa08fc-e98a-44c0-b5db-55a9f347530b",
+      "Reset Button"
+    ],
+    [
+      "d8170bd3-ccd7-48c9-875f-738a35416792",
+      "Daughterboard Connector"
+    ],
+    [
+      "45521865-6226-43e1-9fb7-931b1f23d3b1",
+      "Enable Pin"
+    ],
+    [
+      "0812b1ca-5944-46c7-9dbb-757ca60cf3f6",
+      "IIC Connector"
+    ],
+    [
+      "dc5b488a-e7a5-46d7-8d2b-6eefa2c6624d",
+      "Display Ports"
     ]
   ],
   "text_variables": {}

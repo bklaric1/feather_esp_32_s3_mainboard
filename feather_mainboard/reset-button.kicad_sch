@@ -854,9 +854,10 @@
 			)
 		)
 	)
-	(hierarchical_label "RST"
+	(hierarchical_label "Reset"
 		(shape bidirectional)
 		(at 110.49 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1000,14 +1001,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b9d44c4-84de-47d0-8e3e-1f918590499b")
+			(uuid "3e8e51f9-7eed-45ce-9cee-8fc24b16d75f")
 		)
 		(pin "2"
-			(uuid "8e22e13f-7d8f-455f-bf52-9ad16f654aa0")
+			(uuid "4d0de81f-9895-4b61-908c-7e259b86b956")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/05fa08fc-e98a-44c0-b5db-55a9f347530b"
 					(reference "C1_3")
 					(unit 1)
 				)
@@ -1023,7 +1024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d4ba5ce-3806-4ff6-8fc7-4118151aa563")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 144.78 103.124 90)
 			(effects
 				(font
@@ -1171,15 +1172,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "32d86f62-3761-4b4b-95bd-1a888cc29470")
+			(uuid "72a883c9-b3dc-4eda-80ef-b712028cc8cd")
 		)
 		(pin "2"
-			(uuid "807adc6b-17fe-4c6a-842d-f92224b29217")
+			(uuid "1315cbd5-5443-4a7b-8c4e-5b6fb36a9281")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
-					(reference "J3")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/05fa08fc-e98a-44c0-b5db-55a9f347530b"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1194,7 +1195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2435332-964b-49a2-9955-d07dcd3360fa")
-		(property "Reference" "R1_5"
+		(property "Reference" "R1_1"
 			(at 139.954 86.868 90)
 			(effects
 				(font
@@ -1240,15 +1241,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4377233c-1034-45ea-875d-3823aa82857d")
+			(uuid "7f443c71-0813-4df3-9beb-e0afafed77ff")
 		)
 		(pin "1"
-			(uuid "70190aeb-4609-40d7-9c5d-c27c0d7a5f7d")
+			(uuid "3366a65f-10a4-4609-94c8-9066cd6f5f0e")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
-					(reference "R1_5")
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/05fa08fc-e98a-44c0-b5db-55a9f347530b"
+					(reference "R1_1")
 					(unit 1)
 				)
 			)
@@ -1309,14 +1310,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc29d007-c218-4e92-bf19-8bfdffdf2a03")
+			(uuid "3dcca21b-8fec-4fdd-8574-5bfaf91408f4")
 		)
 		(pin "1"
-			(uuid "58e37d05-5024-4e7c-8e92-c9b21e54386e")
+			(uuid "0bdb71a4-feaa-4a96-8168-06bbb07cf45b")
 		)
 		(instances
 			(project "feather_mainboard"
-				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/0d3ffa4d-b734-4a21-ae0e-364ca9762bbd"
+				(path "/e1e12730-ab4f-45db-8b66-c1e0f78e2f00/05fa08fc-e98a-44c0-b5db-55a9f347530b"
 					(reference "R3_1")
 					(unit 1)
 				)
