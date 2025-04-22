@@ -684,24 +684,24 @@
 		)
 	)
 	(no_connect
-		(at 99.06 113.03)
+		(at 111.76 107.95)
 		(uuid "1276b4d8-a4f3-42aa-81fa-bc3041202ae8")
 	)
 	(no_connect
-		(at 99.06 102.87)
+		(at 111.76 97.79)
 		(uuid "4c050269-f446-4704-bc2b-6081a13344c8")
 	)
 	(no_connect
-		(at 147.32 113.03)
+		(at 160.02 107.95)
 		(uuid "666e8217-9466-480d-ac07-e004f83ba6e6")
 	)
 	(no_connect
-		(at 147.32 102.87)
+		(at 160.02 97.79)
 		(uuid "d9b89524-76c7-4df8-bbba-9fbe75f28343")
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 147.32 102.87)
+			(xy 140.97 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
@@ -711,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 147.32 105.41)
+			(xy 140.97 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -721,7 +721,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 102.87) (xy 118.11 102.87)
+			(xy 111.76 97.79) (xy 130.81 97.79)
 		)
 		(stroke
 			(width 0)
@@ -731,7 +731,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 147.32 107.95)
+			(xy 140.97 102.87) (xy 160.02 102.87)
 		)
 		(stroke
 			(width 0)
@@ -741,7 +741,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 147.32 110.49)
+			(xy 140.97 105.41) (xy 160.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -751,7 +751,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 118.11 107.95)
+			(xy 113.03 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -761,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 110.49) (xy 118.11 110.49)
+			(xy 113.03 105.41) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -771,7 +771,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 113.03) (xy 147.32 113.03)
+			(xy 140.97 107.95) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +781,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 105.41) (xy 118.11 105.41)
+			(xy 113.03 100.33) (xy 130.81 100.33)
 		)
 		(stroke
 			(width 0)
@@ -791,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 118.11 113.03)
+			(xy 111.76 107.95) (xy 130.81 107.95)
 		)
 		(stroke
 			(width 0)
@@ -801,7 +801,7 @@
 	)
 	(hierarchical_label "Button_4"
 		(shape bidirectional)
-		(at 100.33 105.41 180)
+		(at 113.03 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -813,7 +813,7 @@
 	)
 	(hierarchical_label "Button_3"
 		(shape bidirectional)
-		(at 100.33 107.95 180)
+		(at 113.03 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -825,7 +825,7 @@
 	)
 	(hierarchical_label "Button_2"
 		(shape bidirectional)
-		(at 100.33 110.49 180)
+		(at 113.03 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -837,7 +837,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape bidirectional)
-		(at 147.32 110.49 0)
+		(at 160.02 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -849,7 +849,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 147.32 105.41 0)
+		(at 160.02 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -861,7 +861,7 @@
 	)
 	(hierarchical_label "Button_1"
 		(shape bidirectional)
-		(at 147.32 107.95 0)
+		(at 160.02 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -873,7 +873,7 @@
 	)
 	(symbol
 		(lib_id "6250XX21721_62501021721:6250XX21721_62501021721")
-		(at 123.19 107.95 90)
+		(at 135.89 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -881,7 +881,7 @@
 		(dnp no)
 		(uuid "729d8b43-46e1-4419-99c1-010595c3e6eb")
 		(property "Reference" "J1"
-			(at 123.19 99.06 90)
+			(at 135.89 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +889,7 @@
 			)
 		)
 		(property "Value" "6250XX21721_62501021721"
-			(at 123.19 97.79 90)
+			(at 135.89 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +898,7 @@
 			)
 		)
 		(property "Footprint" "Custom footprints:62501021721"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +917,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +926,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +936,7 @@
 			)
 		)
 		(property "CONTACT-RESISTANCE" "20mOhm"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +946,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            CONN, R/A HEADER, 10POS, 2ROW, 2MM ROHS COMPLIANT: YES\n                        \n"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +966,7 @@
 			)
 		)
 		(property "GENDER" "Male"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 			)
 		)
 		(property "MOUNT" "THT"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,7 +986,7 @@
 			)
 		)
 		(property "IR" "2A"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +996,7 @@
 			)
 		)
 		(property "VALUE" "62501021721"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,7 +1016,7 @@
 			)
 		)
 		(property "PACKAGING" "Tray"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1026,7 @@
 			)
 		)
 		(property "PART-NUMBER" "62501021721"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 			)
 		)
 		(property "LENGTH" "17.25mm"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1046,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/62501021721/Wurth+Elektronik/view-part/?ref=snap"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1056,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/62501021721?ae"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1066,7 @@
 			)
 		)
 		(property "MP" "62501021721"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1076,7 @@
 			)
 		)
 		(property "WORKING-VOLTAGE" "250V(AC)"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1086,7 @@
 			)
 		)
 		(property "PINS" "10"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1096,7 @@
 			)
 		)
 		(property "PITCH" "2mm"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1106,7 @@
 			)
 		)
 		(property "TYPE" "Angled"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1116,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1126,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/62501021721/Wurth+Elektronik/view-part/?ref=eda"
-			(at 123.19 107.95 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

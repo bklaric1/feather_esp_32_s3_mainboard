@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Feather Daughterboard")
-		(date "2024-10-30")
-		(rev "1")
+		(date "2025-04-22")
+		(rev "2")
 		(company "Benjamin Klaric")
 		(comment 4 "lprd_feather_daughterboard")
 	)
